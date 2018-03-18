@@ -1,0 +1,52 @@
+//TYPOGRAPHY
+$family:                   'Geometria', Helvetica, Arial, sans-serif;
+
+//*font-size
+$h1:                       55px;
+$heading:                  60px;
+$sub_heading:              42px;
+$menu:                     42px;
+$p:                        22px;
+$active:                   22px;
+$tag:                      14px;
+$lang:                     18px;
+$contact:                  40px;
+  //&-mobile
+  $h1-m:                   25px;
+  $heading-m:              32px;
+  $sub_heading-m:          22px;
+  $menu-m:                 25px;
+  $p-m:                    14px;
+  $active-m:               10px;
+  $tag-m:                  18px;
+  $lang-m:                 16px;
+  $contact-m:              20px;
+
+//*line-height
+$p-height:                 35px;
+$tag-height:               16px;
+$active-height:            30px;
+  //&-mobile
+  $p-height-m:             25px;
+  $active-height-m:        20px;
+
+//*font-weight
+$thin:                     100;
+$light:                    300;
+$normal:                   400;
+$medium:                   500;
+$bold:                     700;
+$extra_bold:               800;
+$heavy:                    900;
+
+
+
+//COLORS
+$black:                    #000000;
+$light_black:              rgba(0, 0, 0, .6);
+$thin_black:               rgba(0, 0, 0, .05);
+$grey:                     #595959;
+$white:                    rgba(255,255,255,1);
+$light_white:              rgba(255,255,255,.7);
+$thin_white:               rgba(255,255,255,.1);
+$blue:                     #00b4ff;
