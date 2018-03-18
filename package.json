@@ -1,0 +1,32 @@
+{
+  "name": "jewelry_catalog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "morecodemore",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.2",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^1.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect-php": "^1.0.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "imagemin-pngquant": "^5.0.1",
+    "bootstrap": "4.0.0-beta.2",
+    "lazysizes": "^4.0.1"
+  },
+  "dependencies": {
+    "sweetalert": "^2.1.0"
+  }
+}
