@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1493.67 2604 59.92 50.257">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e4454f;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #d13a44;
+      }
+
+      .cls-3 {
+        fill: #ff4e5a;
+      }
+    </style>
+  </defs>
+  <g id="if_Telegram_2744933" transform="translate(-1505.9 2585.955)">
+    <g id="Social_icons" transform="translate(12.23 18.045)">
+      <g id="Telegram" transform="translate(0 0)">
+        <path id="Shape" class="cls-1" d="M27.847,63.622c-1.785,0-1.482-.674-2.1-2.374L20.5,43.972,60.908,20" transform="translate(-5.31 -16.409)"/>
+        <path id="Shape-2" data-name="Shape" class="cls-2" d="M24.5,50.15a3.53,3.53,0,0,0,2.755-1.378L34.6,41.628,25.438,36.1" transform="translate(-1.963 -2.937)"/>
+        <path id="Shape-3" data-name="Shape" class="cls-3" d="M35.7,51.212,57.91,67.618c2.534,1.4,4.363.674,4.994-2.353l9.039-42.6c.926-3.71-1.414-5.393-3.838-4.292L15.027,38.844c-3.623,1.453-3.6,3.475-.66,4.375L27.988,47.47,59.521,27.576c1.489-.9,2.855-.417,1.734.578" transform="translate(-12.23 -18.045)"/>
+      </g>
+    </g>
+  </g>
+</svg>

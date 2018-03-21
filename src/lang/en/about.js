@@ -1,4 +1,0 @@
-export default {
-  title: 'About Me',
-  text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsa officia officiis praesentium quis sapiente tempore unde voluptatem! <br><br>Ipsam, quia, sit? Architecto doloribus id impedit iure molestiae nulla perferendis sit! libero maxime, nam nesciunt numquam, quae reprehenderit sequi similique temporibus voluptas voluptates! <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ipsa officia officiis praesentium quis sapiente tempore unde voluptatem! <br><br>Ipsam, quia, sit? Architecto doloribus id impedit iure molestiae nulla perferendis sit! libero maxime, nam nesciunt numquam, quae reprehenderit sequi similique temporibus voluptas voluptates!Dolor dolore doloremque maiores vel vitae.',
-}

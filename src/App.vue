@@ -1,53 +1,25 @@
 <template>
   <div id="app">
-    <nav @mouseup="filterNone">
+    <nav>
+      <img class="logo" src="/static/img/svg/logo.svg" alt="ULYANOV'S">
       <app-lang id="lang"></app-lang>
-      <app-menu></app-menu>
     </nav>
     <router-view></router-view>
-    <footer @mouseup="filterNone">
-      <app-social></app-social>
+    <footer>
+      <img class="logo" src="/static/img/svg/footer-logo.svg" alt="ULYANOV'S">
+      <p class="copyright">&copy;2018 ULYANOV'S - modern web development </p>
     </footer>
   </div>
 </template>
 
 
 <script>
-  import Menu from '@/components/menu.vue'
   import Lang from '@/components/lang.vue'
-  import Social from '@/components/social.vue'
 export default {
   components: {
-    'app-menu': Menu,
     'app-lang': Lang,
-    'app-social': Social
   },
   methods: {
-    filterNone() {
-      const filter = document.getElementById('filter');
-      const filterLabel = document.getElementById("close-span");
-      filter.classList.add("filter-none");
-      filterLabel.classList.remove("filter-label-close");
-    },
-    prevKey() {
-      window.addEventListener("keydown", function (evt) {
-        let slider = document.querySelector('.gallery');
-        if (evt.keyCode === 37) {
-          slider.scrollLeft = slider.scrollLeft - 500;
-        }
-      });
-    },
-    nextKey() {
-      window.addEventListener("keydown", function (evt) {
-        let slider = document.querySelector('.gallery');
-        if (evt.keyCode === 39) {
-          slider.scrollLeft = slider.scrollLeft + 500;
-        }
-      });
-    },
-    idFirst () {
-      this.firstId = this.allArts[0].id;
-    },
     fetch() {
       (function(self) {
         'use strict';
@@ -512,31 +484,29 @@ export default {
       })(typeof self !== 'undefined' ? self : this);
 
     },
-    menuNoneKey() {
-      window.addEventListener("keydown", function (evt) {
-        const menu = document.getElementById("menu");
-        const burger = document.querySelector(".burger");
-        const filter = document.getElementById('filter');
-        const body = document.querySelector("body");
-        function displayNone() {
-          menu.classList.add("menu-none");
-          menu.classList.remove("menu-none-transition");
-        }
-        if (evt.keyCode === 27) {
-          burger.classList.remove("exit");
-          menu.classList.add("menu-none-transition");
-          filter.classList.add("filter-none");
-          body.classList.remove("hidden");
-          setTimeout(displayNone, 100);
-        }
-      });
-    },
+//    menuNoneKey() {
+//      window.addEventListener("keydown", function (evt) {
+//        const menu = document.getElementById("menu");
+//        const burger = document.querySelector(".burger");
+//        const filter = document.getElementById('filter');
+//        const body = document.querySelector("body");
+//        function displayNone() {
+//          menu.classList.add("menu-none");
+//          menu.classList.remove("menu-none-transition");
+//        }
+//        if (evt.keyCode === 27) {
+//          burger.classList.remove("exit");
+//          menu.classList.add("menu-none-transition");
+//          filter.classList.add("filter-none");
+//          body.classList.remove("hidden");
+//          setTimeout(displayNone, 100);
+//        }
+//      });
+//    },
   },
   created() {
-    this.nextKey();
-    this.prevKey();
     this.fetch();
-    this.menuNoneKey();
+//    this.menuNoneKey();
   },
   name: 'App'
 }
@@ -554,13 +524,16 @@ export default {
     padding: 0;
     box-sizing: border-box;
   }
+  *::selection {
+    color: $white;
+    background: $red;
+  }
   body {
     position: relative;
-    overflow: hidden;
     @extend %grid;
     min-width: 320px;
-    width: 100vw;
-    height: 100vh;
+    max-width: 100%;
+    min-height: 100vh;
   }
 
   #app {
@@ -570,128 +543,49 @@ export default {
   h1 {
     font-size: $h1;
     font-weight: $extra_bold;
-    text-transform: uppercase;
   }
 
   nav {
      display: flex;
-     @extend %container;
-     justify-content: flex-end;
+     @extend %container-fluid;
+     justify-content: space-between;
      align-items: flex-end;
-     height: 15vh;
-     min-height: 80px;
+     height: 160px;
    }
 
+  .logo {
+    width: 450px;
+  }
+
   footer {
-    @extend %container;
-    height: 15vh;
-    min-height: 80px;
+    @extend %grid;
+    @extend %container-fluid;
+    @extend %flex-center;
+    height: 385px;
+    background: $black;
   }
 
-  .view-enter-active, .view-leave-active {
-    transition-property: opacity, transform;
-    transition-duration: .35s;
-  }
-
-  .view-enter-active {
-    transition-delay: .3s;
-  }
-
-  .view-enter, .view-leave-active {
-    opacity: 0;
-    transform: scale(.8);
+  .copyright {
+    margin-top: 45px;
+    font-family: $family-pharagraph;
+    font-size: $copyright;
+    line-height: 25px;
+    color: $black-red;
   }
 
   @media only screen and (max-width: 1140px) {
-    body {
-      width: 100vw;
-      min-height: 100vh;
-      height: auto;
-      overflow-x: hidden;
-      overflow-y: auto;
-    }
-
-    nav {
-      height: 100px;
-    }
-
-    footer {
-      display: none;
-    }
-
-    #lang {
-      display: none;
-    }
-  }
-
-  @media only screen and (max-height: 700px) {
-    body {
-      width: 100vw;
-      min-height: 100vh;
-      height: auto;
-      overflow-x: hidden;
-      overflow-y: auto;
-    }
-    footer {
-      display: none;
-    }
   }
 
   @media only screen and (max-width: 768px) {
-    nav {
-      height: 80px;
-    }
 
-    h1 {
-      font-size: $h1-m;
-    }
   }
 
   .hidden {
     overflow: hidden;
   }
 
-  .nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    background: $light_white;
-    z-index: 350;
-  }
-
 
   /*Animation*/
 
-  @keyframes title {
-    0% {
-      transform: translateX(3vw);
-      opacity: 0;
-    }
-
-    50% {
-      opacity: 0;
-    }
-
-    100% {
-      transform: translateX(0px);
-      opacity: 1;
-    }
-  }
-
-  @keyframes text-block {
-    0% {
-      opacity: 0;
-    }
-
-    50% {
-      opacity: 0;
-    }
-
-    100% {
-      opacity: 1;
-    }
-  }
 
 </style>

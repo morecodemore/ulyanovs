@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11169 -3028 437 424">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        font-size: 60px;
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_17" data-name="Group 17" transform="translate(-11908 -5572)">
+    <g id="Rectangle_34" data-name="Rectangle 34" class="cls-1" transform="translate(739 2544)">
+      <rect class="cls-3" width="437" height="424"/>
+      <rect class="cls-4" x="5" y="5" width="427" height="414"/>
+    </g>
+    <text id="ДИ_ЗАЙ_Н" data-name="ДИ
+ЗАЙ
+Н" class="cls-2" transform="translate(1027 2704.5)"><tspan x="-100.02" y="0">ДИ</tspan><tspan x="-138.48" y="73">ЗАЙ</tspan><tspan x="-48.96" y="146">Н</tspan></text>
+  </g>
+</svg>

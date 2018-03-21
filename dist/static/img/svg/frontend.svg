@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11159 -1596 437 424">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        font-size: 60px;
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_19" data-name="Group 19" transform="translate(-11908 -5572)">
+    <g id="Rectangle_38" data-name="Rectangle 38" class="cls-1" transform="translate(749 3976)">
+      <rect class="cls-3" width="437" height="424"/>
+      <rect class="cls-4" x="5" y="5" width="427" height="414"/>
+    </g>
+    <text id="ФР_ОНТ_ЕНД" data-name="ФР
+ОНТ
+ЕНД" class="cls-2" transform="translate(1038 4136.5)"><tspan x="-101.7" y="0">ФР</tspan><tspan x="-138.6" y="73">ОНТ</tspan><tspan x="-140.16" y="146">ЕНД</tspan></text>
+  </g>
+</svg>

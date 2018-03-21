@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-11724 -3742 437 424">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        font-size: 60px;
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-weight: 800;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_16" data-name="Group 16" transform="translate(-11908 -5572)">
+    <g id="Rectangle_33" data-name="Rectangle 33" class="cls-1" transform="translate(184 1830)">
+      <rect class="cls-3" width="437" height="424"/>
+      <rect class="cls-4" x="5" y="5" width="427" height="414"/>
+    </g>
+    <text id="ПРОЕКТ_ИРО_ВАНИЕ" data-name="ПРОЕКТ
+ИРО
+ВАНИЕ" class="cls-2" transform="translate(268 1990.5)"><tspan x="0" y="0">ПРОЕКТ</tspan><tspan x="0" y="73">ИРО</tspan><tspan x="0" y="146">ВАНИЕ</tspan></text>
+  </g>
+</svg>

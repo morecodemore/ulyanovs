@@ -29,15 +29,14 @@
   @import "../assets/scss/templates";
 
   .lang-link {
-    margin-right: 5vw;
-    z-index: 250;
+    margin-right: 10vw;
   }
 
   .lang-link button {
-    padding: 10px;
+    padding: 20px;
     font-family: $family;
-    font-size: $lang;
-    font-weight: $light;
+    font-size: $p;
+    font-weight: $extra_bold;
     background: none;
     border: none;
     cursor: pointer;
@@ -45,7 +44,7 @@
   }
 
   .lang-link button:hover {
-    color: $blue;
+    color: $red;
   }
 
   .lang-link button:active,
@@ -55,9 +54,6 @@
   }
 
   @media only screen and (max-width: 768px) {
-    .lang-link button {
-      font-size: $lang-m;
-    }
   }
 
 </style>

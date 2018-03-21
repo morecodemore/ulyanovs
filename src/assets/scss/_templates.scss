@@ -10,36 +10,11 @@
   align-items: center;
 }
 %container {
-  margin: 0 10vw;
-  width: 80vw;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 %container-fluid {
   width: 100%;
-}
-
-//Logo
-%logo_main {
-  min-width: 242px;
-  width: 40vh;
-  max-width: 385px;
-  z-index: 150;
-}
-%logo {
-  min-width: 150px;
-  width: 30vh;
-  max-width: 242px;
-}
-%logo-hover {
-  transform: scale(1.02);
-}
-
-%logo-active {
-  transform: scale(.98);
-  opacity: .6;
-}
-
-%logo-transition {
-  transition: transform .2s ease-in-out, opacity .2s  ease-in-out;
 }
 
 //Typography
@@ -55,8 +30,7 @@
 
 @media only screen and (max-width: 1140px) {
   %base-typography {
-    font-size: $lang;
-    line-height: $active-height;
+
   }
 }
 
@@ -66,16 +40,8 @@
     width: 85vw;
   }
 
-  %logo {
-    min-width: 120px;
-    width: 10vh;
-    max-width: 150px;
-    z-index: 150;
-  }
-
   %base-typography {
-    font-size: $p-m;
-    line-height: $p-height-m;
+
   }
 }
 
@@ -83,11 +49,7 @@
 
 %transition-link {
   transform: scale(1.05) translate(5px, -3px);
-  color: $blue;
+
 }
 
 //Animation
-
-%h1-animation {
-  animation: title 1s ease-in-out;
-}
