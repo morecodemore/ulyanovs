@@ -17,6 +17,11 @@
   width: 100%;
 }
 
+%home-section {
+  padding: 150px 0;
+  border-top: 1px solid $black;
+}
+
 //Typography
 %base-typography {
   font-family: $family;
@@ -25,6 +30,14 @@
   font-weight: $light;
   line-height: $p-height;
   text-align: left;
+  color: $black;
+}
+
+%heading {
+  text-align: center;
+  font-family: $family;
+  font-size: $heading;
+  text-transform: uppercase;
   color: $black;
 }
 
