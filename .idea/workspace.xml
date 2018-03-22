@@ -2,127 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ded08749-a665-46d2-b280-32c547b571e6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/.cache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/android-chrome-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/android-chrome-192x192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/android-chrome-256x256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/android-chrome-36x36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/android-chrome-384x384.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/android-chrome-48x48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/android-chrome-512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/android-chrome-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/android-chrome-96x96.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-120x120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-144x144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-152x152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-167x167.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-180x180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-60x60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-76x76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon-precomposed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-1182x2208.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-1242x2148.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-1496x2048.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-1536x2008.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-320x460.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-640x1096.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-640x920.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-748x1024.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-750x1294.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-768x1004.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/favicon-16x16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/favicon-32x32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/firefox_app_128x128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/firefox_app_512x512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/firefox_app_60x60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/icons/manifest.webapp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_100.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_100_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_300.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_300_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_400.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_400_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_500.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_500_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_700.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_700_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_800.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_800_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_900.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/fonts/geometria_900_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/logo_about.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/logo_else.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/logo_main.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/menu.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/social.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lang/en/NotFound.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lang/en/contact.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lang/en/menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lang/en/portfolio.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lang/ru/NotFound.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lang/ru/contact.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lang/ru/menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/lang/ru/portfolio.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/NotFound.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/about.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/contacts.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/portfolio.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pages/portfolio_item.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_100.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_100_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_300.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_300_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_400.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_400_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_500.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_500_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_700.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_700_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_800.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_800_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_900.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/fonts/geometria_900_Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/arrow_light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/arrow_next.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/arrow_prew.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/close.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/email.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/instagram.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/plus.svg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lang/en/about.js" afterPath="$PROJECT_DIR$/src/lang/en/home.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/lang/ru/about.js" afterPath="$PROJECT_DIR$/src/lang/ru/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/img/favicon.png" afterPath="$PROJECT_DIR$/dist/static/img/favicon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/arrow.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/arrow_light.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/arrow_next.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/arrow_prew.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/close.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/email.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/instagram.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/logo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/plus.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/Group 22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/ai.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/css3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/face.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/figma.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/gulp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/html.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/invision.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/js.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/node.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/phpstorm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/ps.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/sass.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/sketch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/sublime3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/vue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/webpack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/png/xd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/works/catalog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/works/device.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/works/landing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/works/med.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/static/img/svg/works/patskan.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/.cache" afterPath="$PROJECT_DIR$/dist/icons/.cache" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/android-chrome-144x144.png" afterPath="$PROJECT_DIR$/dist/icons/android-chrome-144x144.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/android-chrome-192x192.png" afterPath="$PROJECT_DIR$/dist/icons/android-chrome-192x192.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/android-chrome-256x256.png" afterPath="$PROJECT_DIR$/dist/icons/android-chrome-256x256.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/android-chrome-36x36.png" afterPath="$PROJECT_DIR$/dist/icons/android-chrome-36x36.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/android-chrome-384x384.png" afterPath="$PROJECT_DIR$/dist/icons/android-chrome-384x384.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/android-chrome-48x48.png" afterPath="$PROJECT_DIR$/dist/icons/android-chrome-48x48.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/android-chrome-512x512.png" afterPath="$PROJECT_DIR$/dist/icons/android-chrome-512x512.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/android-chrome-72x72.png" afterPath="$PROJECT_DIR$/dist/icons/android-chrome-72x72.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/android-chrome-96x96.png" afterPath="$PROJECT_DIR$/dist/icons/android-chrome-96x96.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-114x114.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-114x114.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-120x120.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-120x120.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-144x144.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-144x144.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-152x152.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-152x152.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-167x167.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-167x167.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-180x180.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-180x180.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-57x57.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-57x57.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-60x60.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-60x60.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-72x72.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-72x72.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-76x76.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-76x76.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon-precomposed.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon-precomposed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-icon.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-startup-image-1182x2208.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-1182x2208.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-startup-image-1242x2148.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-1242x2148.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-startup-image-1496x2048.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-1496x2048.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-startup-image-1536x2008.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-1536x2008.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-startup-image-320x460.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-320x460.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-startup-image-640x1096.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-640x1096.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-startup-image-640x920.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-640x920.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-startup-image-748x1024.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-748x1024.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-startup-image-750x1294.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-750x1294.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/apple-touch-startup-image-768x1004.png" afterPath="$PROJECT_DIR$/dist/icons/apple-touch-startup-image-768x1004.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/favicon-16x16.png" afterPath="$PROJECT_DIR$/dist/icons/favicon-16x16.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/favicon-32x32.png" afterPath="$PROJECT_DIR$/dist/icons/favicon-32x32.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/favicon.ico" afterPath="$PROJECT_DIR$/dist/icons/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/firefox_app_128x128.png" afterPath="$PROJECT_DIR$/dist/icons/firefox_app_128x128.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/firefox_app_512x512.png" afterPath="$PROJECT_DIR$/dist/icons/firefox_app_512x512.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/firefox_app_60x60.png" afterPath="$PROJECT_DIR$/dist/icons/firefox_app_60x60.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/manifest.json" afterPath="$PROJECT_DIR$/dist/icons/manifest.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/icons-009f2ded5788b40f31d80822731acc6b/manifest.webapp" afterPath="$PROJECT_DIR$/dist/icons/manifest.webapp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/css/app.css" afterPath="$PROJECT_DIR$/dist/static/css/app.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/css/app.css.map" afterPath="$PROJECT_DIR$/dist/static/css/app.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/app.js" afterPath="$PROJECT_DIR$/dist/static/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/app.js.map" afterPath="$PROJECT_DIR$/dist/static/js/app.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/manifest.js" afterPath="$PROJECT_DIR$/dist/static/js/manifest.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/manifest.js.map" afterPath="$PROJECT_DIR$/dist/static/js/manifest.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/vendor.js" afterPath="$PROJECT_DIR$/dist/static/js/vendor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/vendor.js.map" afterPath="$PROJECT_DIR$/dist/static/js/vendor.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/_fonts.scss" afterPath="$PROJECT_DIR$/src/assets/scss/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/_templates.scss" afterPath="$PROJECT_DIR$/src/assets/scss/_templates.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/scss/_variebles.scss" afterPath="$PROJECT_DIR$/src/assets/scss/_variebles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/lang.vue" afterPath="$PROJECT_DIR$/src/components/lang.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lang/en/index.js" afterPath="$PROJECT_DIR$/src/lang/en/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lang/ru/index.js" afterPath="$PROJECT_DIR$/src/lang/ru/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home.vue" afterPath="$PROJECT_DIR$/src/pages/home.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -163,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="621">
-              <caret line="508" column="25" lean-forward="true" selection-start-line="508" selection-start-column="25" selection-end-line="508" selection-end-column="25" />
+              <caret line="508" column="25" lean-forward="false" selection-start-line="508" selection-start-column="25" selection-end-line="508" selection-end-column="25" />
               <folding>
                 <element signature="e#310#316#0" expanded="true" />
                 <element signature="e#535#15581#0" expanded="false" />
@@ -173,15 +130,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lang.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lang.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/lang.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="161">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding>
                 <element signature="e#202#326#0" expanded="false" />
                 <element signature="e#340#464#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -210,7 +177,7 @@
         <entry file="file://$PROJECT_DIR$/src/lang/en/home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -240,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/lang/en/home.js" />
         <option value="$PROJECT_DIR$/src/pages/home.vue" />
         <option value="$PROJECT_DIR$/src/components/lang.vue" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
       </list>
     </option>
   </component>
@@ -401,15 +369,16 @@
       <option name="presentableId" value="Default" />
       <updated>1521401412397</updated>
       <workItem from="1521401420505" duration="11254000" />
-      <workItem from="1521573997797" duration="16738000" />
+      <workItem from="1521573997797" duration="17435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27992000" />
+    <option name="totallyTimeSpent" value="28689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17727272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -418,7 +387,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20512821" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20512821" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -694,7 +663,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -718,7 +687,7 @@
     <entry file="file://$PROJECT_DIR$/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
-          <caret line="508" column="25" lean-forward="true" selection-start-line="508" selection-start-column="25" selection-end-line="508" selection-end-column="25" />
+          <caret line="508" column="25" lean-forward="false" selection-start-line="508" selection-start-column="25" selection-end-line="508" selection-end-column="25" />
           <folding>
             <element signature="e#310#316#0" expanded="true" />
             <element signature="e#535#15581#0" expanded="false" />
@@ -754,7 +723,7 @@
     <entry file="file://$PROJECT_DIR$/src/lang/en/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -769,12 +738,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/lang.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="161">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding>
             <element signature="e#202#326#0" expanded="false" />
             <element signature="e#340#464#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
