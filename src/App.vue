@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <nav>
-      <img class="logo" src="/static/img/svg/logo.svg" alt="ULYANOV'S">
+      <img class="logo" src="static/img/svg/logo.svg" alt="ULYANOV'S">
       <app-lang id="lang"></app-lang>
     </nav>
     <router-view></router-view>
     <footer>
-      <img class="logo" src="/static/img/svg/footer-logo.svg" alt="ULYANOV'S">
+      <img class="logo" src="static/img/svg/footer-logo.svg" alt="ULYANOV'S">
       <p class="copyright">&copy;2018 ULYANOV'S - modern web development </p>
     </footer>
   </div>
