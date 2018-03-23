@@ -15,6 +15,36 @@
     </section>
     <section class="i-can">
       <h3 class="i-can-heading" v-lang.home.iCanHeading></h3>
+      <div class="i-can-section container">
+        <div class="i-can-section-part picture">
+          <img src="static/img/svg/prototyping.svg" class="prototyping" alt="Prototyping">
+        </div>
+        <div class="i-can-section-part text">
+          <p v-lang.home.prototypingText></p>
+          <div class="link-wrapper"><a href="" class="portfolio-link" v-lang.home.portfolioLinkText></a><span class="link-arrow"></span></div>
+          <div class="use-block">
+            <p class="use-title" v-lang.home.useTitle></p>
+            <div class="use-logo-block">
+              <img src="static/img/png/xd.png" alt="Adobe XD" class="use-logo">
+              <img src="static/img/png/figma.png" alt="Figma" class="use-logo">
+              <img src="static/img/png/sketch.png" alt="Sketch"class="use-logo">
+              <img src="static/img/png/invision.png" alt="InVision" class="use-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="i-can-section container">
+        <div class="i-can-section-part picture"></div>
+        <div class="i-can-section-part text"></div>
+      </div>
+      <div class="i-can-section container">
+        <div class="i-can-section-part picture"></div>
+        <div class="i-can-section-part text"></div>
+      </div>
+      <div class="i-can-section container">
+        <div class="i-can-section-part picture"></div>
+        <div class="i-can-section-part text"></div>
+      </div>
     </section>
     <section class="social-links">
       <div class="container">
@@ -89,27 +119,17 @@ export default {
     @extend %home-section;
     padding: 0;
     background: $black;
+    border: none;
   }
 
   .me-foto {
     position: relative;
     width: 40vw;
     min-width: 520px;
-    overflow: hidden;
     height: 775px;
+    text-align: center;
+    overflow: hidden;
     filter: grayscale(1);
-  }
-
-  .me-foto::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: $black;
-    z-index: 10;
-    opacity: .3;
   }
 
   .me-foto img {
@@ -144,13 +164,90 @@ export default {
 
   /***I can***/
   .i-can {
-    @extend %home-section
+    @extend %home-section;
+    border: none;
   }
 
   .i-can-heading {
     font-size: $heading;
     font-family: $family;
     text-align: center;
+  }
+
+  .i-can-section {
+    display: flex;
+    @extend %home-section;
+    border: none;
+  }
+
+  .i-can-section:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+  }
+
+  .i-can-section-part {
+    width: 50%;
+  }
+
+  .picture {
+    text-align: center;
+  }
+
+  .text, use-title {
+    font-family: $family-pharagraph;
+    font-weight: $normal;
+    color: $light_black;
+  }
+
+  .text {
+    @extend %grid;
+    max-width: 450px;
+  }
+
+  .i-can-section-part img {
+    max-width: 435px;
+  }
+
+  .link-wrapper {
+    margin-top: 35px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .portfolio-link {
+    align-self: flex-end;
+    font-family: $family;
+    font-weight: $extra_bold;
+    font-size: $active;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: $black;
+    text-decoration: none;
+  }
+
+  .link-arrow {
+    margin-left: 8px;
+    width: 18px;
+    height: 18px;
+    background: url('/static/img/svg/arrow.svg') center no-repeat;
+    font-size: 100%;
+  }
+
+  .use-title {
+    margin-top: 65px;
+  }
+
+  .use-logo-block {
+    margin-top: 15px;
+  }
+
+  .use-logo {
+    height: 50px;
+    width: auto;
+  }
+
+  .use-logo:not(last-child) {
+    margin-right: 15px;
   }
 
   /***Social links***/
