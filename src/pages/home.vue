@@ -1,17 +1,23 @@
 <template>
   <main class="home">
-    <section class="title-block wrapper">
+    <section class="title-block container">
       <h1 class="title" v-lang.home.title></h1>
       <h2 class="subtitle" v-lang.home.subtitle></h2>
     </section>
     <section class="about-me">
-      <div class="wrapper">
+      <div  class="me-foto">
+        <img src="static/img/me.jpg" alt="Ulyanov's BOSS">
+      </div>
+      <div class="text-wrapper">
         <h3 class="about-me-heading" v-lang.home.aboutMeHeading></h3>
         <p class="about-me-text" v-lang.home.aboutMeText></p>
       </div>
     </section>
+    <section class="i-can">
+      <h3 class="i-can-heading" v-lang.home.iCanHeading></h3>
+    </section>
     <section class="social-links">
-      <div class="wrapper">
+      <div class="container">
         <h3 class="social-heading" v-lang.home.socialHeading></h3>
         <div class="my-social-networks">
           <a href="https://vk.com/morecodemore" class="social-networks-links" target="_blank"><svg class="vk" xmlns="http://www.w3.org/2000/svg" viewBox="-1754 2611 59.777 35.501">
@@ -54,7 +60,7 @@ export default {
   @import "../assets/scss/templates";
 
 
-  .wrapper {
+  .container {
     @extend %container
   }
 
@@ -78,9 +84,45 @@ export default {
 
   /***About-me***/
   .about-me {
+    display: flex;
     @extend %container-fluid;
     @extend %home-section;
+    padding: 0;
     background: $black;
+  }
+
+  .me-foto {
+    position: relative;
+    width: 40vw;
+    min-width: 520px;
+    overflow: hidden;
+    height: 775px;
+    filter: grayscale(1);
+  }
+
+  .me-foto::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $black;
+    z-index: 10;
+    opacity: .3;
+  }
+
+  .me-foto img {
+    margin-left: -10vw;
+    width: auto;
+    height: 775px;
+  }
+
+  .text-wrapper {
+    @extend %grid;
+    justify-content: center;
+    width: 60vw;
+    max-width: 810px;
   }
 
   .about-me-heading, .about-me-text {
@@ -88,11 +130,27 @@ export default {
   }
 
   .about-me-heading {
+    padding-left: 100px;
     @extend %heading;
+    margin-bottom: 100px;
+    text-align: left;
   }
 
   .about-me-text {
+    padding: 0 100px;
     font-family: $family-pharagraph;
+    font-weight: $light;
+  }
+
+  /***I can***/
+  .i-can {
+    @extend %home-section
+  }
+
+  .i-can-heading {
+    font-size: $heading;
+    font-family: $family;
+    text-align: center;
   }
 
   /***Social links***/
