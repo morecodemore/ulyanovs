@@ -2,288 +2,69 @@
   "items": [
     {
       "id": 1,
-      "url": "moonlight_over_the_loire",
-      "category": "sketch",
+      "url": "device",
+      "tags": ["Верстка"],
       "image": {
-        "thumb": ["https://3.bp.blogspot.com/-w2V5EfBJr3U/UePd9jtNYyI/AAAAAAAA2JQ/39pnunsxth0/s1600/Jeremy_Lipking_17.jpg",
-          "https://www.copronason.com/jux18/images/snoop.jpg", "https://img.huffingtonpost.com/asset/58dfc7811400008b06072c4b.jpg?ops=scalefit_820_noupscale"]
-
+        "thumb": ["static/img/works/device.png"]
       },
-      "title": "Снуп Дог. Этюд",
-      "tags" : [
-        "холст","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2015 г."
+      "title": "DEVICE - интернет-магазин гаджетов",
+      "description": ["Учебный проект c базового интенсива по верстке от Html Academy."],
+      "link": "https://morecodemore.github.io/device/index.html"
     },
     {
       "id": 2,
-      "url": "moonlight_over_the_loir",
-      "category": "sketch",
-      "image":{
-        "thumb": ["https://dg19s6hp6ufoh.cloudfront.net/pictures/612940548/large/photo.jpeg?1456988579",
-          "http://c300221.r21.cf1.rackcdn.com/jeremy-lipking-american-artis-1438856324_org.jpg"]
+      "url": "bikees",
+      "tags": ["Верстка"],
+      "image": {
+        "thumb": ["static/img/works/bikees.png"]
       },
-      "title": "Портрет девушки",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Какое-то другое описание.",
-      "year": "2012 г."
+      "title": "Bikees - интернет-магазин велосипедов",
+      "description": ["Учебный проект адаптиной верстки главной страницы интернет магазина велосипедов."],
+      "link": "https://morecodemore.github.io/bikees/"
     },
     {
       "id": 3,
-      "url": "moonlight_over_the_lore",
-      "category": "graphic",
-      "image":{
-        "thumb":["https://i.pinimg.com/736x/ce/5a/1b/ce5a1bccdad1d77786c359239857ab69--charcoal-portraits-charcoal-drawings.jpg",
-          "https://d32dm0rphc51dk.cloudfront.net/H4D3WWlaHRyEJXoPl9Be8w/larger.jpg"]
+      "url": "jewelry_catalog_landing",
+      "tags": ["Дизайн","Верстка","Интерактив"],
+      "image": {
+        "thumb": ["static/img/works/catalog.png"]
       },
-      "title": "Неизвестная",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "",
-      "year": "2000 г."
+      "title": "Информационный лендинг ювелирного каталога",
+      "description": ["Информационный лендинг одного из продуктов Studio 256 - Ювелирного каталога."],
+      "link": "https://mycatalog.pro/"
     },
     {
       "id": 4,
-      "url": "moonlight_over_the_lire",
-      "category": "sketch",
-      "image":{
-        "thumb":["http://www.americanlegacyfinearts.com/wp-content/uploads/2016/06/Jeremy-Lipking-Young-Girl-with-green-and-Red.jpg"]
+      "url": "patskan",
+      "tags": ["Дизайн","Верстка","Фронтенд"],
+      "image": {
+        "thumb": ["static/img/works/patskan.png"]
       },
-      "title": "На красном",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2010 г."
+      "title": "Patskan - портфолио художника",
+      "description": ["Полный цикл разработки портфолио для художника."],
+      "link": "https://morecodemore.github.io/bikees/"
     },
     {
       "id": 5,
-      "url": "moonlight_over_the_oire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://www.copronason.com/dark/images/lipking.jpg"]
+      "url": "med_studio",
+      "tags": ["Проектирование"],
+      "image": {
+        "thumb": ["static/img/works/med.png"]
       },
-      "title": "В листьях",
-      "tags" : [
-        "холст","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2013 г."
+      "title": "med.studio - медицинское онлайн образование",
+      "description": ["Проектирование прототипов для сервиса медицинского онлайн образования - med.studio."],
+      "link": "https://med.studio/"
     },
     {
       "id": 6,
-      "url": "moonlight_over_he_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["http://www.tate.org.uk/art/images/work/N/N04/N04787_10.jpg"]
+      "url": "jewelry_catalog",
+      "tags": ["Проектирование"],
+      "image": {
+        "thumb": ["static/img/works/landing.png"]
       },
-      "title": "Интеллигент",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2011 г."
-    },
-    {
-      "id": 7,
-      "url": "moonlight_over_te_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://www.theepochtimes.com/assets/uploads/2013/12/Lipking_Sonya_12x16_v2.jpg",
-          "https://i.pinimg.com/736x/a9/00/12/a9001215b2f269760dca97c7fd3d6043--portrait-paintings-oil-paintings.jpg"]
-      },
-      "title": "Рассвет",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2009 г."
-    },
-    {
-      "id": 8,
-      "url": "moonlight_over_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["http://pdw.nationalcowboymuseum.org/wp-content/uploads/2017/04/Jeremy-Lipking-Little-Red-40x24-oil-on-linen-1202x2000.jpg"]
-      },
-      "title": "Прогулка в лесу",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2015 г."
-    },
-    {
-      "id": 9,
-      "url": "moonlght_over_the_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://fasoimages-4cde.kxcdn.com/63572_2606071x700.jpg?cv=201801162007"]
-      },
-      "title": "В долине",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2010 г."
-    },
-    {
-      "id": 10,
-      "url": "moonlight_oer_the_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://artillerymag.com/wp-content/uploads/2017/02/Lipking-700px-600x600.jpg"]
-      },
-      "title": "Молодая вдова",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2000 г."
-    },
-    {
-      "id": 11,
-      "url": "moonlight_over_the_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://images.curiator.com/images/t_x/art/cyhvfh5fqljmphwzgm7b/jeremy-lipking-minarets.jpg"]
-      },
-      "title": "Алиса",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2015 г."
-    },
-    {
-      "id": 12,
-      "url": "moonliht_over_the_oire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/22280952_501484780223702_2288412644652089344_n.jpg"]
-      },
-      "title": "В камышах",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2003 г."
-    },
-    {
-      "id": 13,
-      "url": "oonlight_over_the_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://i.pinimg.com/originals/7a/0f/c0/7a0fc052c51109f00675817ef5c03df3.jpg"]
-      },
-      "title": "Мать и дитя",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2006 г."
-    },
-    {
-      "id": 14,
-      "url": "moonight_over_the_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://fasoimages-4cde.kxcdn.com/63572_2214279x800+v=201801162007c201801162007/portrait-of-l.jpg"]
-      },
-      "title": "Перед экзаменом",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2015 г."
-    },
-    {
-      "id": 15,
-      "url": "moonlight_over_the_lire",
-      "category": "sketch",
-      "image":{
-        "thumb":["http://1.bp.blogspot.com/_BwB25tKuR5w/TBQ6mTyhTiI/AAAAAAAAAVc/iyu4qx8NnYY/s1600/IMG_3090.JPG"]
-      },
-      "title": "Набросок в профиль",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2015 г."
-    },
-    {
-      "id": 16,
-      "url": "moonlight_over_the_lore",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://i.pinimg.com/originals/0d/79/c1/0d79c176b8bbf93772089c0ddf34bb0f.jpg"]
-      },
-      "title": "Двое в лодке",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2015 г."
-    },
-    {
-      "id": 17,
-      "url": "moonlight_oerthe_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["http://pastimesinc.com/wp-content/uploads/2017/03/JL10-232x300.jpg"]
-      },
-      "title": "Нимфа",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2015 г."
-    },
-    {
-      "id": 18,
-      "url": "light_over_the_loire",
-      "category": "landscape",
-      "image":{
-        "thumb":["http://www.irancartoon.com/static/media/uploads/Taheri/Jeremy%20Lipking-%20USA%20(35).jpg"]
-      },
-      "title": "Устал",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2015 г."
-    },
-    {
-      "id": 19,
-      "url": "moon_over_the_loire",
-      "category": "graphic",
-      "image":{
-        "thumb":["http://ensomobile.com/wp-content/uploads/2013/12/juliette-260x185.jpg"]
-      },
-      "title": "Печаль",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2015 г."
-    },
-    {
-      "id": 20,
-      "url": "moonlight_er_the_loire",
-      "category": "landscape",
-      "image":{
-        "thumb":["https://i.pinimg.com/originals/ab/3a/7d/ab3a7d9e61823169af74c9f4324b68ea.jpg"]
-      },
-      "title": "На закате",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "Этот портрет задумчивого мужчины был написан с натуры, в старом престаром поезде и мохнатом-премохнатом году.",
-      "year": "2015 г."
+      "title": "Ювелирный каталог без забот",
+      "description": ["Проектирование прототипов для шаблона ювелирного каталога."],
+      "link": "https://demo.mycatalog.pro/user/sign-in/login?demo=1"
     }
   ]
 }

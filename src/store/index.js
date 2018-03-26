@@ -1,6 +1,6 @@
 import Vuex from 'vuex'
 import Vue from 'vue'
-import Arts from './arts'
+import Works from './works'
 import Categories from './categories'
 
 
@@ -11,7 +11,7 @@ export default new Vuex.Store({
     lang: this.language
   },
   modules: {
-    Arts,
+    Works,
     Categories,
   }
 })

@@ -3,13 +3,13 @@ const state = {
 };
 
 const actions = {
-  getAllArts ({commit}) {
+  getAllWorks ({commit}) {
     let lang = window.localStorage.getItem('vue-lang');
 
     fetch('static/api/'+lang+'/works.json')
       .then(function(response) {
         response.json().then(function(data) {
-          commit('recieve_arts', data.items)
+          commit('recieve_works', data.items)
         });
       })
       .catch( console.log );
@@ -17,13 +17,13 @@ const actions = {
 };
 
 const mutations = {
-  recieve_arts (state, arts) {
-    state.all = arts
+  recieve_works (state, works) {
+    state.all = works
   }
 };
 
 const getters = {
-  allArts (state) {
+  allWorks (state) {
     return state.all
   }
 };

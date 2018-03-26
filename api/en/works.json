@@ -2,288 +2,69 @@
   "items": [
     {
       "id": 1,
-      "url": "moonlight_over_the_loire",
-      "category": "sketch",
+      "url": "device",
+      "tags": ["Page making"],
       "image": {
-        "thumb": ["https://3.bp.blogspot.com/-w2V5EfBJr3U/UePd9jtNYyI/AAAAAAAA2JQ/39pnunsxth0/s1600/Jeremy_Lipking_17.jpg",
-          "https://www.copronason.com/jux18/images/snoop.jpg", "https://img.huffingtonpost.com/asset/58dfc7811400008b06072c4b.jpg?ops=scalefit_820_noupscale"]
-
+        "thumb": ["static/img/works/device.png"]
       },
-      "title": "Snoop Dogg. Sketch",
-      "tags" : [
-        "canvas","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2015"
+      "title": "DEVICE - online gadget store",
+      "description": ["The educational project of the basic intensity for imposition from Html Academy."],
+      "link": "https://morecodemore.github.io/device/index.html"
     },
     {
       "id": 2,
-      "url": "moonlight_over_the_loir",
-      "category": "sketch",
-      "image":{
-        "thumb": ["https://dg19s6hp6ufoh.cloudfront.net/pictures/612940548/large/photo.jpeg?1456988579",
-          "http://c300221.r21.cf1.rackcdn.com/jeremy-lipking-american-artis-1438856324_org.jpg"]
+      "url": "bikees",
+      "tags": ["Page making"],
+      "image": {
+        "thumb": ["static/img/works/bikees.png"]
       },
-      "title": "Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "Some other description.",
-      "year": "2012"
+      "title": "Bikees - online bicycle shop",
+      "description": ["Educational project adaptive layout of the main page of the online bike shop."],
+      "link": "https://morecodemore.github.io/bikees/"
     },
     {
       "id": 3,
-      "url": "moonlight_over_the_lore",
-      "category": "graphic",
-      "image":{
-        "thumb":["https://i.pinimg.com/736x/ce/5a/1b/ce5a1bccdad1d77786c359239857ab69--charcoal-portraits-charcoal-drawings.jpg",
-          "https://d32dm0rphc51dk.cloudfront.net/H4D3WWlaHRyEJXoPl9Be8w/larger.jpg"]
+      "url": "jewelry_catalog_landing",
+        "tags": ["Design","Page making","Interactive"],
+      "image": {
+        "thumb": ["static/img/works/catalog.png"]
       },
-      "title": "Moonlight. Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "",
-      "year": "2000"
+      "title": "Information lending of Jewelry catalog",
+      "description": ["Information lending of one of the products Studio 256 - Jewelry catalog."],
+      "link": "https://mycatalog.pro/"
     },
     {
       "id": 4,
-      "url": "moonlight_over_the_lire",
-      "category": "sketch",
-      "image":{
-        "thumb":["http://www.americanlegacyfinearts.com/wp-content/uploads/2016/06/Jeremy-Lipking-Young-Girl-with-green-and-Red.jpg"]
+      "url": "patskan",
+      "tags": ["Design","Page making","Frontend"],
+      "image": {
+        "thumb": ["static/img/works/patskan.png"]
       },
-      "title": "Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2010"
+      "title": "Patskan - artist's portfolio",
+      "description": ["Full cycle of portfolio development for the artist."],
+      "link": "https://morecodemore.github.io/bikees/"
     },
     {
       "id": 5,
-      "url": "moonlight_over_the_oire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://www.copronason.com/dark/images/lipking.jpg"]
+      "url": "med_studio",
+      "tags": ["Projecting"],
+      "image": {
+        "thumb": ["static/img/works/med.png"]
       },
-      "title": "The Loire",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2013"
+      "title": "med.studio - medical online education",
+      "description": ["Designing prototypes for the service of medical online education - med.studio."],
+      "link": "https://med.studio/"
     },
     {
       "id": 6,
-      "url": "moonlight_over_he_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["http://www.tate.org.uk/art/images/work/N/N04/N04787_10.jpg"]
+      "url": "jewelry_catalog",
+      "tags": ["Projecting"],
+      "image": {
+        "thumb": ["static/img/works/landing.png"]
       },
-      "title": "Moonlight",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2011"
-    },
-    {
-      "id": 7,
-      "url": "moonlight_over_te_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://www.theepochtimes.com/assets/uploads/2013/12/Lipking_Sonya_12x16_v2.jpg",
-          "https://i.pinimg.com/736x/a9/00/12/a9001215b2f269760dca97c7fd3d6043--portrait-paintings-oil-paintings.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2009"
-    },
-    {
-      "id": 8,
-      "url": "moonlight_over_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["http://pdw.nationalcowboymuseum.org/wp-content/uploads/2017/04/Jeremy-Lipking-Little-Red-40x24-oil-on-linen-1202x2000.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2015"
-    },
-    {
-      "id": 9,
-      "url": "moonlght_over_the_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://fasoimages-4cde.kxcdn.com/63572_2606071x700.jpg?cv=201801162007"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2010 г."
-    },
-    {
-      "id": 10,
-      "url": "moonlight_oer_the_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://artillerymag.com/wp-content/uploads/2017/02/Lipking-700px-600x600.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "холст","масло","темпера"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2000"
-    },
-    {
-      "id": 11,
-      "url": "moonlight_over_the_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://images.curiator.com/images/t_x/art/cyhvfh5fqljmphwzgm7b/jeremy-lipking-minarets.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2015"
-    },
-    {
-      "id": 12,
-      "url": "moonliht_over_the_oire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/22280952_501484780223702_2288412644652089344_n.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "",
-      "year": "2003"
-    },
-    {
-      "id": 13,
-      "url": "oonlight_over_the_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://i.pinimg.com/originals/7a/0f/c0/7a0fc052c51109f00675817ef5c03df3.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2006"
-    },
-    {
-      "id": 14,
-      "url": "moonight_over_the_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://fasoimages-4cde.kxcdn.com/63572_2214279x800+v=201801162007c201801162007/portrait-of-l.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2015"
-    },
-    {
-      "id": 15,
-      "url": "moonlight_over_the_lire",
-      "category": "sketch",
-      "image":{
-        "thumb":["http://1.bp.blogspot.com/_BwB25tKuR5w/TBQ6mTyhTiI/AAAAAAAAAVc/iyu4qx8NnYY/s1600/IMG_3090.JPG"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2015"
-    },
-    {
-      "id": 16,
-      "url": "moonlight_over_the_lore",
-      "category": "portrait",
-      "image":{
-        "thumb":["https://i.pinimg.com/originals/0d/79/c1/0d79c176b8bbf93772089c0ddf34bb0f.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2015"
-    },
-    {
-      "id": 17,
-      "url": "moonlight_oerthe_loire",
-      "category": "portrait",
-      "image":{
-        "thumb":["http://pastimesinc.com/wp-content/uploads/2017/03/JL10-232x300.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2015"
-    },
-    {
-      "id": 18,
-      "url": "light_over_the_loire",
-      "category": "landscape",
-      "image":{
-        "thumb":["http://www.irancartoon.com/static/media/uploads/Taheri/Jeremy%20Lipking-%20USA%20(35).jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2015"
-    },
-    {
-      "id": 19,
-      "url": "moon_over_the_loire",
-      "category": "graphic",
-      "image":{
-        "thumb":["http://ensomobile.com/wp-content/uploads/2013/12/juliette-260x185.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "",
-      "year": "2015"
-    },
-    {
-      "id": 20,
-      "url": "moonlight_er_the_loire",
-      "category": "landscape",
-      "image":{
-        "thumb":["https://i.pinimg.com/originals/ab/3a/7d/ab3a7d9e61823169af74c9f4324b68ea.jpg"]
-      },
-      "title": "Moonlight Over the Loire Valley",
-      "tags" : [
-        "canvas","oil","tempera"
-      ],
-      "description": "This portrait of a thoughtful man was written from nature, in an old pristine train and shaggy-premonished year.",
-      "year": "2015"
+      "title": "Jewelery catalog without worries",
+      "description": ["Designing prototypes for a jewelery catalog template."],
+      "link": "https://demo.mycatalog.pro/user/sign-in/login?demo=1"
     }
   ]
 }

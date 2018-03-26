@@ -21,7 +21,7 @@
         </div>
         <div class="i-can-section-part text">
           <p v-lang.home.prototypingText></p>
-          <div class="link-wrapper"><a href="" class="portfolio-link" v-lang.home.portfolioLinkText></a><span class="link-arrow"></span></div>
+          <div class="link-wrapper"><a href="#portfolio" class="portfolio-link" v-lang.home.portfolioLinkText></a><span class="link-arrow"></span></div>
           <div class="use-block">
             <p class="use-title" v-lang.home.useTitle></p>
             <div class="use-logo-block">
@@ -34,16 +34,103 @@
         </div>
       </div>
       <div class="i-can-section container">
-        <div class="i-can-section-part picture"></div>
-        <div class="i-can-section-part text"></div>
+        <div class="i-can-section-part picture">
+          <img src="static/img/svg/design.svg" class="design" alt="Design">
+        </div>
+        <div class="i-can-section-part text">
+          <p v-lang.home.designText></p>
+          <div class="link-wrapper"><a href="#portfolio" class="portfolio-link" v-lang.home.portfolioLinkText></a><span class="link-arrow"></span></div>
+          <div class="use-block">
+            <p class="use-title" v-lang.home.useTitle></p>
+            <div class="use-logo-block">
+              <img src="static/img/png/xd.png" alt="Adobe XD" class="use-logo">
+              <img src="static/img/png/figma.png" alt="Figma" class="use-logo">
+              <img src="static/img/png/sketch.png" alt="Sketch"class="use-logo">
+              <img src="static/img/png/ps.png" alt="Adobe Photoshop" class="use-logo">
+              <img src="static/img/png/ai.png" alt="Adobe Illustrator" class="use-logo">
+              <img src="static/img/png/invision.png" alt="InVision" class="use-logo">
+            </div>
+          </div>
+        </div>
       </div>
       <div class="i-can-section container">
-        <div class="i-can-section-part picture"></div>
-        <div class="i-can-section-part text"></div>
+        <div class="i-can-section-part picture">
+          <img src="static/img/svg/imposition.svg" class="imposition" alt="Imposition">
+        </div>
+        <div class="i-can-section-part text">
+          <p v-lang.home.impositionText></p>
+          <div class="link-wrapper"><a href="#portfolio" class="portfolio-link" v-lang.home.portfolioLinkText></a><span class="link-arrow"></span></div>
+          <div class="use-block">
+            <p class="use-title" v-lang.home.useTitle></p>
+            <div class="use-logo-block">
+              <img src="static/img/png/html.png" alt="HTML5" class="use-logo">
+              <img src="static/img/png/css3.png" alt="CSS3" class="use-logo">
+              <img src="static/img/png/gulp.png" alt="Gulp" class="use-logo">
+              <img src="static/img/png/sass.png" alt="Sass"class="use-logo">
+              <img src="static/img/png/less.png" alt="Less" class="use-logo">
+              <img src="static/img/png/sublime3.png" alt="Sublime 3" class="use-logo">
+            </div>
+          </div>
+        </div>
       </div>
       <div class="i-can-section container">
-        <div class="i-can-section-part picture"></div>
-        <div class="i-can-section-part text"></div>
+        <div class="i-can-section-part picture">
+          <img src="static/img/svg/frontend.svg" class="frontend" alt="Frontend">
+        </div>
+        <div class="i-can-section-part text">
+          <p v-lang.home.frontendText></p>
+          <div class="link-wrapper"><a href="#portfolio" class="portfolio-link" v-lang.home.portfolioLinkText></a><span class="link-arrow"></span></div>
+          <div class="use-block">
+            <p class="use-title" v-lang.home.useTitle></p>
+            <div class="use-logo-block">
+              <img src="static/img/png/js.png" alt="JavaScript" class="use-logo">
+              <img src="static/img/png/vue.png" alt="Vue.js" class="use-logo">
+              <img src="static/img/png/node.png" alt="Node.js" class="use-logo">
+              <img src="static/img/png/webpack.png" alt="Webpack"class="use-logo">
+              <img src="static/img/png/git.png" alt="Git" class="use-logo">
+              <img src="static/img/png/phpstorm.png" alt="PhpStorm" class="use-logo">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="info-block">
+      <h3 class="info-heading" v-lang.home.infoHeading></h3>
+      <p class="info-text" v-lang.home.infoTextTitle></p>
+      <p class="info-text"><span v-lang.home.infoTextPharagraph1></span><a href="#portfolio" class="info-link" v-lang.home.infoTextPharagraphLink1></a><span v-lang.home.infoTextPharagraph2></span><a class="info-link" id="modal-button" v-lang.home.infoTextPharagraphLink2></a><span v-lang.home.infoTextPharagraph3></span></p>
+      <div class="modal-info-block" id="modal-info">
+        <button class="close-modal-info" id="modal-close">Close</button>
+        <div class="container">
+          <h3 class="modal-info-heading" v-lang.info.title></h3>
+          <p class="modal-info-text" v-lang.info.text></p>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio-block">
+      <a name="portfolio"></a>
+      <h3 class="portfolio-heading" v-lang.home.portfolioHeading></h3>
+      <div class="portfolio-items-block container">
+        <article class="portfolio-item" v-for="work in allWorks" :key="work.id">
+          <div class="item-preview">
+            <img :src=work.image.thumb[0] :alt=work.title>
+          </div>
+          <div class="item-info">
+            <div class="tag-block">
+              <span class="tag">{{work.tags.join(', ')}}</span>
+            </div>
+            <p class="item-text">{{work.description[0]}}</p>
+            <div class="link-wrapper info-link-wrapper">
+              <a href="" v-lang.home.portfolioLink></a><span class="link-arrow info-link-arrow"></span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="letter-block">
+      <h3 class="letter-heading" v-lang.home.letterHeading></h3>
+      <p class="letter-text" v-lang.home.letterText></p>
+      <div class="letter-link-wrapper container">
+        <a href="mailto:ulyanovs.studio@gmail.com?subject=Вопрос c ULYANOV'S" class="letter-link">ulyanovs.studio@gmail.com</a>
       </div>
     </section>
     <section class="social-links">
@@ -75,9 +162,31 @@
 
 
 <script>
-
+  import { mapGetters, mapActions } from 'vuex'
 export default {
+  data: function  () {
+    return {
+    }
+  },
+  mounted () {
+    this.getAllWorks();
+    //this.getAllKats();
+  },
+
   computed: {
+    ...mapGetters([
+      'allWorks',
+      //'allKats',
+    ]),
+  },
+  methods: {
+    ...mapActions([
+      'getAllWorks',
+      //'getAllKats',
+    ]),
+
+  },
+  created() {
   },
   name: 'home'
 }
@@ -129,7 +238,6 @@ export default {
     height: 775px;
     text-align: center;
     overflow: hidden;
-    filter: grayscale(1);
   }
 
   .me-foto img {
@@ -166,6 +274,7 @@ export default {
   .i-can {
     @extend %home-section;
     border: none;
+    padding-bottom: 0;
   }
 
   .i-can-heading {
@@ -175,6 +284,7 @@ export default {
   }
 
   .i-can-section {
+    position: relative;
     display: flex;
     @extend %home-section;
     border: none;
@@ -182,6 +292,17 @@ export default {
 
   .i-can-section:nth-child(2n + 1) {
     flex-direction: row-reverse;
+  }
+
+  .i-can-section:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 50px);
+    display: block;
+    width: 100px;
+    height: 10px;
+    background: $black;
   }
 
   .i-can-section-part {
@@ -200,7 +321,7 @@ export default {
 
   .text {
     @extend %grid;
-    max-width: 450px;
+    max-width: 490px;
   }
 
   .i-can-section-part img {
@@ -223,13 +344,40 @@ export default {
     text-transform: uppercase;
     color: $black;
     text-decoration: none;
+    transition: color .3s ease-in-out;
+  }
+
+  .portfolio-link:hover {
+    color: $red;
+  }
+
+  .portfolio-link:hover + .link-arrow {
+    animation: go .6s ease-in-out;
+  }
+
+  @keyframes go {
+   0% {
+     transform: translateY(0);
+   }
+    25% {
+      transform: translateY(2px);
+    }
+    50% {
+      transform: translateY(0);
+    }
+    75% {
+      transform: translateY(2px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 
   .link-arrow {
     margin-left: 8px;
     width: 18px;
     height: 18px;
-    background: url('/static/img/svg/arrow.svg') center no-repeat;
+    background: url('../../static/img/svg/arrow.svg') center no-repeat;
     font-size: 100%;
   }
 
@@ -242,12 +390,253 @@ export default {
   }
 
   .use-logo {
-    height: 50px;
+    height: 40px;
     width: auto;
   }
 
   .use-logo:not(last-child) {
     margin-right: 15px;
+  }
+
+  /***Info block***/
+  .info-block {
+    @extend %home-section
+  }
+
+  .info-heading {
+    @extend %heading
+  }
+
+  .info-text {
+    margin: 70px auto 0;
+    max-width: 900px;
+    font-family: $family-pharagraph;
+    font-weight: $normal;
+  }
+
+  .modal-info-block {
+    padding: 70px 0;
+    display: none;
+    top:0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: $white;
+    z-index: 100;
+    overflow-y: auto;
+  }
+
+  .modal-active {
+    display: block;
+  }
+
+  .modal-info-heading {
+    @extend %heading;
+  }
+
+  .modal-info-text {
+    margin-top: 70px;
+    font-family: $family-pharagraph;
+    font-weight: $normal;
+    font-size: $p;
+  }
+
+  .close-modal-info {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-family: $family;
+    font-size: $active;
+    font-weight: $extra_bold;
+    text-transform: uppercase;
+    color: $red;
+    border: none;
+    background: none;
+    outline: none;
+    z-index: 105;
+    transition: opacity .2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .close-modal-info:hover, .close-modal-info:focus {
+    opacity: .6;
+  }
+
+  /***Portfolio block***/
+  .portfolio-block {
+    @extend %home-section
+  }
+
+  .portfolio-heading {
+    @extend  %heading
+  }
+
+  .portfolio-items-block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .portfolio-item {
+    margin-top: 100px;
+    display: flex;
+    @extend %flex-center;
+    width: 50%;
+  }
+
+  .item-preview {
+    display: flex;
+    @extend %flex-center;
+    width: 440px;
+    height: 440px;
+    position: relative;
+    border: 1px solid $black;
+  }
+
+  .item-preview img {
+    max-width: 350px;
+  }
+
+  .item-info {
+    padding: 20px;
+    display: none;
+    @extend %grid;
+    justify-content: space-between;
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    background: rgba(255,78,90,.9);
+    animation: viewInfo .3s ease-in-out;
+  }
+
+  @keyframes viewInfo {
+    0% {
+      opacity: .3;
+      transform: scale(.98);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .item-preview:hover + .item-info {
+    display: flex;
+  }
+
+  .item-info:hover {
+    display: flex;
+  }
+
+  .tag-block {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .tag {
+    padding: 12px;
+    display: inline-block;
+    font-family: $family-pharagraph;
+    font-size: $tag;
+    line-height: $tag;
+    background: $white;
+    color: $red;
+  }
+
+  .item-text {
+    padding: 25px 15px;
+    font-family: $family-pharagraph;
+    font-size: $mask-text;
+    line-height: $mask-height;
+    color: $white;
+    border-left: 5px solid $white;
+    background: rgba(255,255,255,.1);
+  }
+
+  .info-link-wrapper {
+    margin-top: 0;
+  }
+
+  .info-link-wrapper > a {
+    font-size: $mask-text;
+    color: $white;
+    transition: opacity .3s ease-in-out;
+  }
+
+  .info-link-wrapper .info-link-arrow {
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    background: url('../../static/img/svg/arrow_white.svg');
+  }
+
+  .info-link-wrapper > a:hover {
+    opacity: .7;
+  }
+
+  .info-link-wrapper > a:hover + .info-link-arrow {
+    animation: more .2s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes more {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+
+  /***Letter block***/
+  .letter-block {
+    @extend %home-section
+  }
+  
+  .letter-text {
+    margin: 70px 0;
+    font-family: $family-pharagraph;
+    text-align: center;
+  }
+
+  .letter-heading {
+    @extend %heading
+  }
+
+  .letter-link-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .letter-link {
+    position: relative;
+    font-family: $family;
+    font-weight: $extra_bold;
+    font-size: $h1;
+    text-decoration: none;
+    text-align: center;
+    color: $black;
+    transition: color .5s ease-in-out;
+  }
+
+  .letter-link::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: $black;
+    z-index: -1;
+    transition: height .3s ease-in-out;
+  }
+
+  .letter-link:hover {
+    color: $red;
+  }
+
+  .letter-link:hover::after {
+    height: calc(100% + 20px);
   }
 
   /***Social links***/
