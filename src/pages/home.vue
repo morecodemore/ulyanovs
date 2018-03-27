@@ -539,8 +539,8 @@ export default {
     @extend %grid;
     justify-content: space-between;
     position: absolute;
-    width: 440px;
-    height: 440px;
+    width: 439px;
+    height: 439px;
     background: rgba(255,78,90,.9);
     animation: viewInfo .3s ease-in-out;
     z-index: 50;

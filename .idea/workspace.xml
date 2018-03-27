@@ -48,11 +48,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/app.js" afterPath="$PROJECT_DIR$/dist/static/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/app.js.map" afterPath="$PROJECT_DIR$/dist/static/js/app.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/static/js/manifest.js.map" afterPath="$PROJECT_DIR$/dist/static/js/manifest.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lang/en/home.js" afterPath="$PROJECT_DIR$/src/lang/en/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lang/ru/home.js" afterPath="$PROJECT_DIR$/src/lang/ru/home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home.vue" afterPath="$PROJECT_DIR$/src/pages/home.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -144,8 +140,8 @@
       <file leaf-file-name="home.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="131" column="58" lean-forward="false" selection-start-line="131" selection-start-column="58" selection-end-line="131" selection-end-column="58" />
+            <state relative-caret-position="228">
+              <caret line="546" column="3" lean-forward="false" selection-start-line="546" selection-start-column="3" selection-end-line="546" selection-end-column="3" />
               <folding>
                 <element signature="n#section#0;n#main#0;n#template#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#main#0;n#template#0;n#!!top" expanded="false" />
@@ -365,12 +361,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521401412397</updated>
       <workItem from="1521401420505" duration="11254000" />
-      <workItem from="1521573997797" duration="93931000" />
+      <workItem from="1521573997797" duration="94721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105185000" />
+    <option name="totallyTimeSpent" value="105975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -827,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="131" column="58" lean-forward="false" selection-start-line="131" selection-start-column="58" selection-end-line="131" selection-end-column="58" />
+        <state relative-caret-position="228">
+          <caret line="546" column="3" lean-forward="false" selection-start-line="546" selection-start-column="3" selection-end-line="546" selection-end-column="3" />
           <folding>
             <element signature="n#section#0;n#main#0;n#template#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#main#0;n#template#0;n#!!top" expanded="false" />
