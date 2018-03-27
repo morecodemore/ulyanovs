@@ -21,5 +21,6 @@ export default {
   portfolioLink: 'ПОДРОБНЕЕ',
   letterHeading:'ПИШИТЕ ПИСЬМА',
   letterText: 'По любому интересующему вопросу:',
-  socialHeading: 'МОИ СОЦСЕТИ'
+  socialHeading: 'МОИ СОЦСЕТИ',
+  closeText:'Закрыть'
 }

@@ -21,5 +21,6 @@ export default {
   portfolioLink: 'READ MORE',
   letterHeading:'WRITE LETTERS',
   letterText: 'On any question of interest:',
-  socialHeading: 'MY SOCIAL NETWORKS'
+  socialHeading: 'MY SOCIAL NETWORKS',
+  closeText:'Close'
 }

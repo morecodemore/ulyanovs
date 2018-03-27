@@ -97,30 +97,42 @@
     <section class="info-block">
       <h3 class="info-heading" v-lang.home.infoHeading></h3>
       <p class="info-text" v-lang.home.infoTextTitle></p>
-      <p class="info-text"><span v-lang.home.infoTextPharagraph1></span><a href="#portfolio" class="info-link" v-lang.home.infoTextPharagraphLink1></a><span v-lang.home.infoTextPharagraph2></span><a class="info-link" id="modal-button" v-lang.home.infoTextPharagraphLink2></a><span v-lang.home.infoTextPharagraph3></span></p>
-      <div class="modal-info-block" id="modal-info">
-        <button class="close-modal-info" id="modal-close">Close</button>
-        <div class="container">
-          <h3 class="modal-info-heading" v-lang.info.title></h3>
-          <p class="modal-info-text" v-lang.info.text></p>
+      <p class="info-text"><span v-lang.home.infoTextPharagraph1></span><a href="#portfolio" class="info-link" v-lang.home.infoTextPharagraphLink1></a><span v-lang.home.infoTextPharagraph2></span><a class="info-link" id="modal-button" @click="viewModal" v-lang.home.infoTextPharagraphLink2></a><span v-lang.home.infoTextPharagraph3></span></p>
+      <transition name="modal">
+        <div class="modal-info-block" id="modal-info" v-if="!show">
+          <button class="close-modal-info" id="modal-close" @click="closeModal" v-lang.home.closeText></button>
+          <div class="container">
+            <h3 class="modal-info-heading" v-lang.info.title></h3>
+            <p class="modal-info-text" v-lang.info.text></p>
+          </div>
         </div>
-      </div>
+      </transition>
     </section>
     <section class="portfolio-block">
       <a name="portfolio"></a>
       <h3 class="portfolio-heading" v-lang.home.portfolioHeading></h3>
       <div class="portfolio-items-block container">
         <article class="portfolio-item" v-for="work in allWorks" :key="work.id">
-          <div class="item-preview">
-            <img :src=work.image.thumb[0] :alt=work.title>
-          </div>
-          <div class="item-info">
-            <div class="tag-block">
-              <span class="tag">{{work.tags.join(', ')}}</span>
-            </div>
-            <p class="item-text">{{work.description[0]}}</p>
-            <div class="link-wrapper info-link-wrapper">
-              <a href="" v-lang.home.portfolioLink></a><span class="link-arrow info-link-arrow"></span>
+          <div class="item">
+            <div class="item-preview">
+              <img :src=work.image.thumb[0] :alt=work.title>
+              <div class="item-info">
+                <div class="tag-block">
+                  <span class="tag">{{work.tags.join(', ')}}</span>
+                </div>
+                <p class="item-text">{{work.description[0]}}</p>
+                <div class="link-wrapper info-link-wrapper">
+                  <router-link :to="{ name : 'home', params : {id : work.id}}"><span v-lang.home.portfolioLink @click="viewModalItem"></span></router-link><span class="link-arrow info-link-arrow"></span>
+                </div>
+              </div>
+              <transition name="modal">
+                <div class="modal-info-block" id="item-modal" v-if="!modal">
+                  <button class="close-modal-info" @click="closeModalItem" v-lang.home.closeText></button>
+                  <div class="container">
+                    <h3 class="modal-info-heading">{{workD.title}}</h3>
+                  </div>
+                </div>
+              </transition>
             </div>
           </div>
         </article>
@@ -166,6 +178,8 @@
 export default {
   data: function  () {
     return {
+      show: true,
+      modal: true
     }
   },
   mounted () {
@@ -178,13 +192,37 @@ export default {
       'allWorks',
       //'allKats',
     ]),
+    workD () {
+      let id = parseInt(this.$route.params.id);
+      return this.allWorks.find((workD) => workD.id === id) || {};
+    },
+
   },
   methods: {
     ...mapActions([
       'getAllWorks',
       //'getAllKats',
     ]),
-
+    viewModal() {
+      const body = document.querySelector('body');
+      this.show = !this.show;
+      body.classList.add('hidden')
+    },
+    closeModal() {
+      const body = document.querySelector('body');
+      this.show = !this.show;
+      body.classList.remove('hidden');
+    },
+    viewModalItem() {
+      const body = document.querySelector('body');
+      this.modal = !this.modal;
+      body.classList.add('hidden')
+    },
+    closeModalItem(e) {
+      const body = document.querySelector('body');
+      this.modal = !this.modal;
+      body.classList.remove('hidden');
+    }
   },
   created() {
   },
@@ -415,8 +453,8 @@ export default {
   }
 
   .modal-info-block {
-    padding: 70px 0;
-    display: none;
+    padding: 150px 0;
+    display: block;
     top:0;
     left: 0;
     position: fixed;
@@ -425,10 +463,6 @@ export default {
     background: $white;
     z-index: 100;
     overflow-y: auto;
-  }
-
-  .modal-active {
-    display: block;
   }
 
   .modal-info-heading {
@@ -444,23 +478,23 @@ export default {
 
   .close-modal-info {
     position: absolute;
-    top: 30px;
-    right: 40px;
+    top: 50px;
+    right: 70px;
     font-family: $family;
     font-size: $active;
     font-weight: $extra_bold;
     text-transform: uppercase;
-    color: $red;
+    color: $grey;
     border: none;
     background: none;
     outline: none;
     z-index: 105;
-    transition: opacity .2s ease-in-out;
+    transition: color .2s ease-in-out;
     cursor: pointer;
   }
 
   .close-modal-info:hover, .close-modal-info:focus {
-    opacity: .6;
+    color: $red;
   }
 
   /***Portfolio block***/
@@ -498,6 +532,8 @@ export default {
   }
 
   .item-info {
+    left: 0;
+    top: 0;
     padding: 20px;
     display: none;
     @extend %grid;
@@ -507,6 +543,7 @@ export default {
     height: 440px;
     background: rgba(255,78,90,.9);
     animation: viewInfo .3s ease-in-out;
+    z-index: 50;
   }
 
   @keyframes viewInfo {
@@ -520,7 +557,7 @@ export default {
     }
   }
 
-  .item-preview:hover + .item-info {
+  .item-preview:hover .item-info {
     display: flex;
   }
 
@@ -616,6 +653,7 @@ export default {
     text-decoration: none;
     text-align: center;
     color: $black;
+    z-index: 10;
     transition: color .5s ease-in-out;
   }
 
@@ -734,6 +772,23 @@ export default {
     }
     from {
       transform: scale(1.2);
+    }
+  }
+
+  .modal-enter-active {
+    animation: modal .5s;
+  }
+  .modal-leave-active {
+    animation: modal .2s reverse;
+  }
+  @keyframes modal {
+    0% {
+      opacity: .5;
+      transform: scale(.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
     }
   }
 
