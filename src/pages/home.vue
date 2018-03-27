@@ -130,6 +130,9 @@
                   <button class="close-modal-info" @click="closeModalItem" v-lang.home.closeText></button>
                   <div class="container">
                     <h3 class="modal-info-heading">{{workD.title}}</h3>
+                    <div class="modal-img-big">
+                      <img :src=workD.image.thumb[1] :alt=workD.title>
+                    </div>
                   </div>
                 </div>
               </transition>
@@ -463,6 +466,7 @@ export default {
     background: $white;
     z-index: 100;
     overflow-y: auto;
+    border: 10px solid $thin_black;
   }
 
   .modal-info-heading {
@@ -477,7 +481,7 @@ export default {
   }
 
   .close-modal-info {
-    position: absolute;
+    position: fixed;
     top: 50px;
     right: 70px;
     font-family: $family;
@@ -491,6 +495,10 @@ export default {
     z-index: 105;
     transition: color .2s ease-in-out;
     cursor: pointer;
+  }
+
+  .modal-img-big img {
+    max-width: 100% !important;
   }
 
   .close-modal-info:hover, .close-modal-info:focus {
@@ -776,19 +784,19 @@ export default {
   }
 
   .modal-enter-active {
-    animation: modal .5s;
+    animation: modal .4s ease-in-out;
   }
   .modal-leave-active {
-    animation: modal .2s reverse;
+    animation: modal .4s ease-in-out reverse;
   }
   @keyframes modal {
     0% {
-      opacity: .5;
-      transform: scale(.95);
+      opacity: 0;
+      transform: scale3d(.95, .95, .95);
     }
     100% {
       opacity: 1;
-      transform: scale(1);
+      transform: scale3d(1,1,1);
     }
   }
 

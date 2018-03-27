@@ -5,7 +5,7 @@
       "url": "device",
       "tags": ["Верстка"],
       "image": {
-        "thumb": ["static/img/works/device.png"]
+        "thumb": ["static/img/works/prev/device.png", "static/img/works/big/device.png"]
       },
       "title": "DEVICE - интернет-магазин гаджетов",
       "description": ["Учебный проект c базового интенсива по верстке от Html Academy."],
@@ -16,7 +16,7 @@
       "url": "bikees",
       "tags": ["Верстка"],
       "image": {
-        "thumb": ["static/img/works/bikees.png"]
+        "thumb": ["static/img/works/prev/bikees.png"]
       },
       "title": "Bikees - интернет-магазин велосипедов",
       "description": ["Учебный проект адаптиной верстки главной страницы интернет магазина велосипедов."],
@@ -27,7 +27,7 @@
       "url": "jewelry_catalog_landing",
       "tags": ["Дизайн","Верстка","Интерактив"],
       "image": {
-        "thumb": ["static/img/works/catalog.png"]
+        "thumb": ["static/img/works/prev/catalog.png"]
       },
       "title": "Информационный лендинг ювелирного каталога",
       "description": ["Информационный лендинг одного из продуктов Studio 256 - Ювелирного каталога."],
@@ -38,7 +38,7 @@
       "url": "patskan",
       "tags": ["Дизайн","Верстка","Фронтенд"],
       "image": {
-        "thumb": ["static/img/works/patskan.png"]
+        "thumb": ["static/img/works/prev/patskan.png", "static/img/works/big/FOTO.png"]
       },
       "title": "Patskan - портфолио художника",
       "description": ["Полный цикл разработки портфолио для художника."],
@@ -49,7 +49,7 @@
       "url": "med_studio",
       "tags": ["Проектирование"],
       "image": {
-        "thumb": ["static/img/works/med.png"]
+        "thumb": ["static/img/works/prev/med.png"]
       },
       "title": "med.studio - медицинское онлайн образование",
       "description": ["Проектирование прототипов для сервиса медицинского онлайн образования - med.studio."],
@@ -60,11 +60,22 @@
       "url": "jewelry_catalog",
       "tags": ["Проектирование"],
       "image": {
-        "thumb": ["static/img/works/landing.png"]
+        "thumb": ["static/img/works/prev/landing.png"]
       },
       "title": "Ювелирный каталог без забот",
       "description": ["Проектирование прототипов для шаблона ювелирного каталога."],
       "link": "https://demo.mycatalog.pro/user/sign-in/login?demo=1"
+    },
+    {
+      "id": 7,
+      "url": "jewelry_catalog",
+      "tags": ["Проектирование", "Дизайн"],
+      "image": {
+        "thumb": ["static/img/works/prev/openmedcom_promo.png"]
+      },
+      "title": "Новогодняя промостраница сервиса openmedcom.ru",
+      "description": ["Проектирование прототипов и дазайн шаблона промостраницы."],
+      "link": "https://openmedcom.ru/pages/promo"
     }
   ]
 }
