@@ -29,6 +29,7 @@
               <img src="static/img/png/figma.png" alt="Figma" class="use-logo">
               <img src="static/img/png/sketch.png" alt="Sketch"class="use-logo">
               <img src="static/img/png/invision.png" alt="InVision" class="use-logo">
+              <img src="static/img/png/xmind.jpg" alt="Xmind" class="use-logo">
             </div>
           </div>
         </div>
@@ -101,9 +102,24 @@
       <transition name="modal">
         <div class="modal-info-block" id="modal-info" v-if="!show">
           <button class="close-modal-info" id="modal-close" @click="closeModal" v-lang.home.closeText></button>
-          <div class="container">
+          <div>
             <h3 class="modal-info-heading" v-lang.info.title></h3>
-            <p class="modal-info-text" v-lang.info.text></p>
+            <div class="modal-info-section">
+              <div class="modal-info-foto-block" id="projecting"><p v-lang.info.projecting></p></div>
+              <p class="modal-info-text container" v-lang.info.text></p>
+            </div>
+            <div class="modal-info-section">
+              <div class="modal-info-foto-block" id="design"><p v-lang.info.design></p></div>
+              <p class="modal-info-text container" v-lang.info.text></p>
+            </div>
+            <div class="modal-info-section">
+              <div class="modal-info-foto-block" id="page_making"><p v-lang.info.page_making></p></div>
+              <p class="modal-info-text container" v-lang.info.text></p>
+            </div>
+            <div class="modal-info-section">
+              <div class="modal-info-foto-block" id="frontend"><p v-lang.info.frontend></p></div>
+              <p class="modal-info-text container" v-lang.info.text></p>
+            </div>
           </div>
         </div>
       </transition>
@@ -136,10 +152,10 @@
                   <div class="modal-info-text container">
                   <p class="link-heading" v-lang.home.linkHeading></p>
                     <div class="modal-info-text link-wrapper-modal">
-                      <p><span>{{workD.linkHeading[0]}}</span><a :href=workD.link[0] target="_blank">{{workD.link[0]}}</a></p>
-                      <p><span>{{workD.linkHeading[1]}}</span><a :href=workD.link[1] target="_blank">{{workD.link[1]}}</a></p>
-                      <p><span>{{workD.linkHeading[2]}}</span><a :href=workD.link[2] target="_blank">{{workD.link[2]}}</a></p>
-                      <p><span>{{workD.linkHeading[3]}}</span><a :href=workD.link[3] target="_blank">{{workD.link[3]}}</a></p>
+                      <p><span>{{workD.linkHeading[0]}}</span><a class="modal-link" :href=workD.link[0] target="_blank">{{workD.link[0]}}</a></p>
+                      <p><span>{{workD.linkHeading[1]}}</span><a class="modal-link" :href=workD.link[1] target="_blank">{{workD.link[1]}}</a></p>
+                      <p><span>{{workD.linkHeading[2]}}</span><a class="modal-link" :href=workD.link[2] target="_blank">{{workD.link[2]}}</a></p>
+                      <p><span>{{workD.linkHeading[3]}}</span><a class="modal-link" :href=workD.link[3] target="_blank">{{workD.link[3]}}</a></p>
                     </div>
                   </div>
                 </div>
@@ -496,10 +512,57 @@ export default {
     font-size: $p;
   }
 
+  .modal-info-foto-block {
+    margin-top: 70px;
+    position: relative;
+    display: flex;
+    @extend %flex-center;
+    height: 500px;
+  }
+
+  #projecting {
+    background: url('../../static/img/for_develop_text/prototiping.jpg') center repeat-y;
+    background-size: 100%;
+  }
+
+  #design {
+    background: url('../../static/img/for_develop_text/design.jpg') center repeat-y;
+    background-size: 100%;
+  }
+
+  #page_making {
+    background: url('../../static/img/for_develop_text/page_making.jpg') center repeat-y;
+    background-size: 100%;
+  }
+
+  #frontend {
+    background: url('../../static/img/for_develop_text/frontend.jpg') 0 30% repeat-y;
+    background-size: 100%;
+  }
+
+  .modal-info-foto-block p {
+    z-index: 20;
+    text-transform: uppercase;
+    font-size: $h1;
+    color: $thin_black;
+  }
+
+  .modal-info-foto-block::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:  100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 10;
+  }
+
   .close-modal-info {
     position: fixed;
-    top: 50px;
-    right: 70px;
+    padding: 30px;
+    top: 20px;
+    right: 40px;
     font-family: $family;
     font-size: $active;
     font-weight: $extra_bold;
@@ -543,6 +606,27 @@ export default {
 
   .close-modal-info:hover, .close-modal-info:focus {
     color: $red;
+  }
+
+  .modal-link {
+    position: relative;
+  }
+
+  .modal-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #000000;
+    z-index: -1;
+    -webkit-transition: height .3s ease-in-out;
+    transition: height .3s ease-in-out;
+  }
+
+  .modal-link:hover::after {
+    height: calc(100% + 8px);
   }
 
   /***Portfolio block***/
