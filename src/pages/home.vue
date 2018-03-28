@@ -128,10 +128,18 @@
               <transition name="modal">
                 <div class="modal-info-block" id="item-modal" v-if="!modal">
                   <button class="close-modal-info" @click="closeModalItem" v-lang.home.closeText></button>
-                  <div class="container">
-                    <h3 class="modal-info-heading">{{workD.title}}</h3>
-                    <div class="modal-img-big">
-                      <img :src=workD.image.thumb[1] :alt=workD.title>
+                  <h3 class="modal-info-heading">{{workD.title}}</h3>
+                  <p class="modal-info-text container">{{workD.description[1]}}</p>
+                  <div class="modal-img-big">
+                    <img :src=workD.image.thumb[1] :alt=workD.title>
+                  </div>
+                  <div class="modal-info-text container">
+                  <p class="link-heading" v-lang.home.linkHeading></p>
+                    <div class="modal-info-text link-wrapper-modal">
+                      <p><span>{{workD.linkHeading[0]}}</span><a :href=workD.link[0] target="_blank">{{workD.link[0]}}</a></p>
+                      <p><span>{{workD.linkHeading[1]}}</span><a :href=workD.link[1] target="_blank">{{workD.link[1]}}</a></p>
+                      <p><span>{{workD.linkHeading[2]}}</span><a :href=workD.link[2] target="_blank">{{workD.link[2]}}</a></p>
+                      <p><span>{{workD.linkHeading[3]}}</span><a :href=workD.link[3] target="_blank">{{workD.link[3]}}</a></p>
                     </div>
                   </div>
                 </div>
@@ -199,6 +207,9 @@ export default {
       let id = parseInt(this.$route.params.id);
       return this.allWorks.find((workD) => workD.id === id) || {};
     },
+    links () {
+      return this.workD.link.length === 1
+    }
 
   },
   methods: {
@@ -221,11 +232,12 @@ export default {
       this.modal = !this.modal;
       body.classList.add('hidden')
     },
-    closeModalItem(e) {
+    closeModalItem() {
       const body = document.querySelector('body');
       this.modal = !this.modal;
       body.classList.remove('hidden');
     }
+
   },
   created() {
   },
@@ -294,8 +306,12 @@ export default {
     max-width: 810px;
   }
 
-  .about-me-heading, .about-me-text {
+  .about-me-heading {
     color: $red;
+  }
+
+  .about-me-text {
+    color: rgba(255, 78, 90, .8);
   }
 
   .about-me-heading {
@@ -498,7 +514,31 @@ export default {
   }
 
   .modal-img-big img {
+    width: auto;
+    min-width: inherit;
     max-width: 100% !important;
+  }
+
+  .modal-img-big {
+    margin-top: 70px;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid $thin_black;
+    border-bottom: 1px solid $thin_black;
+  }
+
+  .link-heading {
+    font-family: $family;
+    text-transform: uppercase;
+  }
+
+  .link-wrapper-modal {
+    display: block;
+  }
+
+  .link-wrapper-modal p:not(:first-child) {
+    margin-top: 30px;
   }
 
   .close-modal-info:hover, .close-modal-info:focus {

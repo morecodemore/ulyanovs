@@ -22,5 +22,6 @@ export default {
   letterHeading:'WRITE LETTERS',
   letterText: 'On any question of interest:',
   socialHeading: 'MY SOCIAL NETWORKS',
-  closeText:'Close'
+  closeText:'Close',
+  linkHeading:'<b>Links for viewing:</b>'
 }

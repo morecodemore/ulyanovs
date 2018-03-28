@@ -8,7 +8,7 @@
         "thumb": ["static/img/works/prev/device.png", "static/img/works/big/device.png"]
       },
       "title": "DEVICE - online gadget store",
-      "description": ["The educational project of the basic intensity for imposition from Html Academy."],
+      "description": ["The educational project of the basic intensity for imposition from Html Academy.", "The educational project of the basic intensity for imposition from Html Academy."],
       "link": "https://morecodemore.github.io/device/index.html"
     },
     {
@@ -38,7 +38,7 @@
       "url": "patskan",
       "tags": ["Design","Page making","Frontend"],
       "image": {
-        "thumb": ["static/img/works/prev/patskan.png", "static/img/works/big/FOTO.png"]
+        "thumb": ["static/img/works/prev/patskan.png", "static/img/works/big/patsckan.png"]
       },
       "title": "Patskan - artist's portfolio",
       "description": ["Full cycle of portfolio development for the artist."],
