@@ -8,8 +8,9 @@
         "thumb": ["static/img/works/prev/device.png", "static/img/works/big/device.png"]
       },
       "title": "DEVICE - интернет-магазин гаджетов",
-      "description": ["Учебный проект c базового интенсива по верстке от Html Academy."],
-      "link": "https://morecodemore.github.io/device/index.html"
+      "description": ["Учебный проект c базового интенсива по верстке от Html Academy.", "Учебный проект c базового интенсива по верстке от Html Academy"],
+      "link": ["https://morecodemore.github.io/device/index.html", "https://morecodemore.github.io/device/catalog.html"],
+      "linkHeading": ["Главная страница: ", "Страница каталога: "]
     },
     {
       "id": 2,
@@ -20,7 +21,8 @@
       },
       "title": "Bikees - интернет-магазин велосипедов",
       "description": ["Учебный проект адаптиной верстки главной страницы интернет магазина велосипедов."],
-      "link": "https://morecodemore.github.io/bikees/"
+      "link": ["https://morecodemore.github.io/bikees/"],
+      "linkHeading": ["Сайт проекта"]
     },
     {
       "id": 3,
@@ -31,18 +33,20 @@
       },
       "title": "Информационный лендинг ювелирного каталога",
       "description": ["Информационный лендинг одного из продуктов Studio 256 - Ювелирного каталога."],
-      "link": "https://mycatalog.pro/"
+      "link": ["https://mycatalog.pro/"],
+      "linkHeading": ["Сайт проекта"]
     },
     {
       "id": 4,
       "url": "patskan",
       "tags": ["Дизайн","Верстка","Фронтенд"],
       "image": {
-        "thumb": ["static/img/works/prev/patskan.png", "static/img/works/big/FOTO.png"]
+        "thumb": ["static/img/works/prev/patskan.png", "static/img/works/big/patsckan.png"]
       },
       "title": "Patskan - портфолио художника",
       "description": ["Полный цикл разработки портфолио для художника."],
-      "link": "https://morecodemore.github.io/bikees/"
+      "link": ["https://morecodemore.github.io/bikees/"],
+      "linkHeading": ["Сайт проекта"]
     },
     {
       "id": 5,
@@ -53,7 +57,8 @@
       },
       "title": "med.studio - медицинское онлайн образование",
       "description": ["Проектирование прототипов для сервиса медицинского онлайн образования - med.studio."],
-      "link": "https://med.studio/"
+      "link": ["https://med.studio/"],
+      "linkHeading": ["Сайт проекта"]
     },
     {
       "id": 6,
@@ -64,7 +69,8 @@
       },
       "title": "Ювелирный каталог без забот",
       "description": ["Проектирование прототипов для шаблона ювелирного каталога."],
-      "link": "https://demo.mycatalog.pro/user/sign-in/login?demo=1"
+      "link": ["https://demo.mycatalog.pro/user/sign-in/login?demo=1"],
+      "linkHeading": ["Сайт проекта"]
     },
     {
       "id": 7,
@@ -75,7 +81,8 @@
       },
       "title": "Новогодняя промостраница сервиса openmedcom.ru",
       "description": ["Проектирование прототипов и дазайн шаблона промостраницы."],
-      "link": "https://openmedcom.ru/pages/promo"
+      "link": ["https://openmedcom.ru/pages/promo"],
+      "linkHeading": ["Сайт проекта"]
     }
   ]
 }
