@@ -9,29 +9,32 @@
       },
       "title": "DEVICE - online gadget store",
       "description": ["The educational project of the basic intensity for imposition from Html Academy.", "The educational project of the basic intensity for imposition from Html Academy."],
-      "link": "https://morecodemore.github.io/device/index.html"
+      "link": ["https://morecodemore.github.io/device/index.html", "https://morecodemore.github.io/device/catalog.html"],
+      "linkHeading": ["Main page: ", "Catalog page: "]
     },
     {
       "id": 2,
       "url": "bikees",
       "tags": ["Page making"],
       "image": {
-        "thumb": ["static/img/works/prev/bikees.png"]
+        "thumb": ["static/img/works/prev/bikees.png", "static/img/works/big/bikees.png"]
       },
       "title": "Bikees - online bicycle shop",
       "description": ["Educational project adaptive layout of the main page of the online bike shop."],
-      "link": "https://morecodemore.github.io/bikees/"
+      "link": ["https://morecodemore.github.io/bikees/"],
+      "linkHeading": ["Main page: "  ]
     },
     {
       "id": 3,
       "url": "jewelry_catalog_landing",
         "tags": ["Design","Page making","Interactive"],
       "image": {
-        "thumb": ["static/img/works/prev/catalog.png"]
+        "thumb": ["static/img/works/prev/catalog.png", "static/img/works/big/catalog_landing.png"]
       },
       "title": "Information lending of Jewelry catalog",
       "description": ["Information lending of one of the products Studio 256 - Jewelry catalog."],
-      "link": "https://mycatalog.pro/"
+      "link": ["https://mycatalog.pro/"],
+      "linkHeading": ["Project website: "]
     },
     {
       "id": 4,
@@ -42,40 +45,44 @@
       },
       "title": "Patskan - artist's portfolio",
       "description": ["Full cycle of portfolio development for the artist."],
-      "link": "https://morecodemore.github.io/bikees/"
+      "link": ["https://morecodemore.github.io/bikees/"],
+      "linkHeading": ["Project website: "]
     },
     {
       "id": 5,
       "url": "med_studio",
       "tags": ["Projecting"],
       "image": {
-        "thumb": ["static/img/works/prev/med.png"]
+        "thumb": ["static/img/works/prev/med.png", "static/img/works/big/sto.png"]
       },
       "title": "med.studio - medical online education",
       "description": ["Designing prototypes for the service of medical online education - med.studio."],
-      "link": "https://med.studio/"
+      "link": ["https://med.studio/"],
+      "linkHeading": ["Project website: "]
     },
     {
       "id": 6,
       "url": "jewelry_catalog",
       "tags": ["Projecting"],
       "image": {
-        "thumb": ["static/img/works/prev/landing.png"]
+        "thumb": ["static/img/works/prev/landing.png", "static/img/works/big/catalog.png"]
       },
       "title": "Jewelery catalog without worries",
       "description": ["Designing prototypes for a jewelery catalog template."],
-      "link": "https://demo.mycatalog.pro/user/sign-in/login?demo=1"
+      "link": ["https://demo.mycatalog.pro/user/sign-in/login?demo=1"],
+      "linkHeading": ["Project website: "]
     },
     {
       "id": 7,
       "url": "jewelry_catalog",
       "tags": ["Projecting", "Design"],
       "image": {
-        "thumb": ["static/img/works/prev/openmedcom_promo.png"]
+        "thumb": ["static/img/works/prev/openmedcom_promo.png", "static/img/works/big/openmedcom.png"]
       },
       "title": "New Year's promotional page for the service openmedcom.ru",
       "description": ["Designing prototypes and the template of the promotional page."],
-      "link": "https://openmedcom.ru/pages/promo"
+      "link": ["https://openmedcom.ru/pages/promo"],
+      "linkHeading": ["Making page: "]
     }
   ]
 }

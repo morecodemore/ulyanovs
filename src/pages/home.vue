@@ -136,10 +136,10 @@
                   <div class="modal-info-text container">
                   <p class="link-heading" v-lang.home.linkHeading></p>
                     <div class="modal-info-text link-wrapper-modal">
-                      <p><span>{{workD.linkHeading[0]}}</span><a :href=workD.link[0] target="_blank">{{workD.link[0]}}</a></p>
-                      <p><span>{{workD.linkHeading[1]}}</span><a :href=workD.link[1] target="_blank">{{workD.link[1]}}</a></p>
-                      <p><span>{{workD.linkHeading[2]}}</span><a :href=workD.link[2] target="_blank">{{workD.link[2]}}</a></p>
-                      <p><span>{{workD.linkHeading[3]}}</span><a :href=workD.link[3] target="_blank">{{workD.link[3]}}</a></p>
+                      <p><span>{{workD.linkHeading[0]}}</span><a class="modal-link" :href=workD.link[0] target="_blank">{{workD.link[0]}}</a></p>
+                      <p><span>{{workD.linkHeading[1]}}</span><a class="modal-link" :href=workD.link[1] target="_blank">{{workD.link[1]}}</a></p>
+                      <p><span>{{workD.linkHeading[2]}}</span><a class="modal-link" :href=workD.link[2] target="_blank">{{workD.link[2]}}</a></p>
+                      <p><span>{{workD.linkHeading[3]}}</span><a class="modal-link" :href=workD.link[3] target="_blank">{{workD.link[3]}}</a></p>
                     </div>
                   </div>
                 </div>
@@ -543,6 +543,27 @@ export default {
 
   .close-modal-info:hover, .close-modal-info:focus {
     color: $red;
+  }
+
+  .modal-link {
+    position: relative;
+  }
+
+  .modal-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #000000;
+    z-index: -1;
+    -webkit-transition: height .3s ease-in-out;
+    transition: height .3s ease-in-out;
+  }
+
+  .modal-link:hover::after {
+    height: calc(100% + 8px);
   }
 
   /***Portfolio block***/
