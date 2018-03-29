@@ -543,7 +543,7 @@ export default {
     z-index: 20;
     text-transform: uppercase;
     font-size: $h1;
-    color: $red;
+    color: $black;
   }
 
   .close-modal-info {
