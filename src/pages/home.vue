@@ -510,8 +510,8 @@ export default {
     top:0;
     left: 0;
     position: fixed;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: $white;
     z-index: 100;
     overflow-y: auto;
@@ -616,16 +616,17 @@ export default {
 
   .modal-link:hover::after,
   .rout-link a:hover::after {
-    height: calc(100% + 8px);
+    height: calc(100%);
   }
 
   .rout-link {
     position: fixed;
     bottom: 10px;
-    padding: 30px;
   }
 
   .rout-link a {
+    display: inline-block;
+    padding: 10px 30px;
     color: $light_black;
     transition: color .3s ease-in-out;
   }
