@@ -100,24 +100,24 @@
       <p class="info-text" v-lang.home.infoTextTitle></p>
       <p class="info-text"><span v-lang.home.infoTextPharagraph1></span><a href="#portfolio" class="info-link" v-lang.home.infoTextPharagraphLink1></a><span v-lang.home.infoTextPharagraph2></span><a class="info-link" id="modal-button" @click="viewModal" v-lang.home.infoTextPharagraphLink2></a><span v-lang.home.infoTextPharagraph3></span></p>
       <transition name="modal">
-        <div class="modal-info-block" id="modal-info" v-if="!show">
+        <div class="modal-info-block" id="modal-info" v-show="!show">
           <button class="close-modal-info" id="modal-close" @click="closeModal" v-lang.home.closeText></button>
           <div>
             <h3 class="modal-info-heading" v-lang.info.title></h3>
             <div class="modal-info-section">
-              <div class="modal-info-foto-block" id="projecting"><p v-lang.info.projecting></p></div>
+              <div class="modal-info-foto-block projecting-foto"><p v-lang.info.projecting></p></div>
               <p class="modal-info-text container" v-lang.info.text></p>
             </div>
             <div class="modal-info-section">
-              <div class="modal-info-foto-block" id="design"><p v-lang.info.design></p></div>
+              <div class="modal-info-foto-block design-foto"><p v-lang.info.design></p></div>
               <p class="modal-info-text container" v-lang.info.text></p>
             </div>
             <div class="modal-info-section">
-              <div class="modal-info-foto-block" id="page_making"><p v-lang.info.page_making></p></div>
+              <div class="modal-info-foto-block page_making-foto"><p v-lang.info.page_making></p></div>
               <p class="modal-info-text container" v-lang.info.text></p>
             </div>
             <div class="modal-info-section">
-              <div class="modal-info-foto-block" id="frontend"><p v-lang.info.frontend></p></div>
+              <div class="modal-info-foto-block frontend-foto"><p v-lang.info.frontend></p></div>
               <p class="modal-info-text container" v-lang.info.text></p>
             </div>
           </div>
@@ -141,25 +141,33 @@
                   <router-link :to="{ name : 'home', params : {id : work.id}}"><span v-lang.home.portfolioLink @click="viewModalItem"></span></router-link><span class="link-arrow info-link-arrow"></span>
                 </div>
               </div>
-              <transition name="modal">
-                <div class="modal-info-block" id="item-modal" v-if="!modal">
-                  <button class="close-modal-info" @click="closeModalItem" v-lang.home.closeText></button>
-                  <h3 class="modal-info-heading">{{workD.title}}</h3>
-                  <p class="modal-info-text container">{{workD.description[1]}}</p>
-                  <div class="modal-img-big">
-                    <img :src=workD.image.thumb[1] :alt=workD.title>
-                  </div>
-                  <div class="modal-info-text container">
-                  <p class="link-heading" v-lang.home.linkHeading></p>
-                    <div class="modal-info-text link-wrapper-modal">
-                      <p><span>{{workD.linkHeading[0]}}</span><a class="modal-link" :href=workD.link[0] target="_blank">{{workD.link[0]}}</a></p>
-                      <p><span>{{workD.linkHeading[1]}}</span><a class="modal-link" :href=workD.link[1] target="_blank">{{workD.link[1]}}</a></p>
-                      <p><span>{{workD.linkHeading[2]}}</span><a class="modal-link" :href=workD.link[2] target="_blank">{{workD.link[2]}}</a></p>
-                      <p><span>{{workD.linkHeading[3]}}</span><a class="modal-link" :href=workD.link[3] target="_blank">{{workD.link[3]}}</a></p>
+
+                <transition-group name="modal" tag="div">
+                  <div class="modal-info-block" id="item-modal" v-if="!modal" :key="workD.id">
+                    <div id="prevLink" class="rout-link prevLink" v-show="!disablePrev">
+                      <router-link :to="{ name : 'home', params : {id : workD.id-1}}" >Prev</router-link>
+                    </div>
+                    <div id="nextLink" class="rout-link nextLink" v-show="!disableNext">
+                      <router-link :to="{ name : 'home', params : {id : workD.id+1}}">Next</router-link>
+                    </div>
+                    <button class="close-modal-info" @click="closeModalItem" v-lang.home.closeText></button>
+                    <h3 class="modal-info-heading container">{{workD.title}}</h3>
+                    <p class="modal-info-text container">{{workD.description[1]}}</p>
+                    <div class="modal-img-big">
+                      <img :src=workD.image.thumb[1] :alt=workD.title>
+                    </div>
+                    <div class="modal-info-text container">
+                    <p class="link-heading" v-lang.home.linkHeading></p>
+                      <div class="modal-info-text link-wrapper-modal">
+                        <p><span>{{workD.linkHeading[0]}}</span><a class="modal-link" :href=workD.link[0] target="_blank">{{workD.link[0]}}</a></p>
+                        <p><span>{{workD.linkHeading[1]}}</span><a class="modal-link" :href=workD.link[1] target="_blank">{{workD.link[1]}}</a></p>
+                        <p><span>{{workD.linkHeading[2]}}</span><a class="modal-link" :href=workD.link[2] target="_blank">{{workD.link[2]}}</a></p>
+                        <p><span>{{workD.linkHeading[3]}}</span><a class="modal-link" :href=workD.link[3] target="_blank">{{workD.link[3]}}</a></p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </transition>
+                </transition-group>
+
             </div>
           </div>
         </article>
@@ -225,7 +233,15 @@ export default {
     },
     links () {
       return this.workD.link.length === 1
-    }
+    },
+    disablePrev() {
+      const firstId = this.allWorks[0].id;
+      return this.workD.id === firstId
+    },
+    disableNext() {
+      const lastId = this.allWorks[this.allWorks.length - 1].id;
+      return this.workD.id === lastId
+    },
 
   },
   methods: {
@@ -252,7 +268,8 @@ export default {
       const body = document.querySelector('body');
       this.modal = !this.modal;
       body.classList.remove('hidden');
-    }
+    },
+
 
   },
   created() {
@@ -517,45 +534,16 @@ export default {
     position: relative;
     display: flex;
     @extend %flex-center;
-    height: 500px;
-  }
-
-  #projecting {
-    background: url('../../static/img/for_develop_text/prototiping.jpg') center repeat-y;
-    background-size: 100%;
-  }
-
-  #design {
-    background: url('../../static/img/for_develop_text/design.jpg') center repeat-y;
-    background-size: 100%;
-  }
-
-  #page_making {
-    background: url('../../static/img/for_develop_text/page_making.jpg') center repeat-y;
-    background-size: 100%;
-  }
-
-  #frontend {
-    background: url('../../static/img/for_develop_text/frontend.jpg') 0 30% repeat-y;
-    background-size: 100%;
+    height: 200px;
+    border-top: 10px solid $thin_black;
+    border-bottom: 10px solid $thin_black;
   }
 
   .modal-info-foto-block p {
     z-index: 20;
     text-transform: uppercase;
     font-size: $h1;
-    color: $thin_black;
-  }
-
-  .modal-info-foto-block::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height:  100%;
-    background: rgba(0, 0, 0, .6);
-    z-index: 10;
+    color: $red;
   }
 
   .close-modal-info {
@@ -567,7 +555,7 @@ export default {
     font-size: $active;
     font-weight: $extra_bold;
     text-transform: uppercase;
-    color: $grey;
+    color: $thin_black;
     border: none;
     background: none;
     outline: none;
@@ -612,7 +600,8 @@ export default {
     position: relative;
   }
 
-  .modal-link::after {
+  .modal-link::after,
+  .rout-link a::after {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -622,11 +611,35 @@ export default {
     background: #000000;
     z-index: -1;
     -webkit-transition: height .3s ease-in-out;
-    transition: height .3s ease-in-out;
+    transition: height .3s ease-in-out, transform .3s ease-in-out;
   }
 
-  .modal-link:hover::after {
+  .modal-link:hover::after,
+  .rout-link a:hover::after {
     height: calc(100% + 8px);
+  }
+
+  .rout-link {
+    position: fixed;
+    padding: 30px;
+    bottom: 0;
+  }
+
+  .rout-link a {
+    color: $light_black;
+    transition: color .3s ease-in-out;
+  }
+
+  .rout-link a:active::after {
+    transform: scale(.9);
+  }
+
+  .rout-link a:hover {
+    color: $red;
+  }
+
+  .nextLink {
+    right: 0;
   }
 
   /***Portfolio block***/
@@ -916,11 +929,11 @@ export default {
   @keyframes modal {
     0% {
       opacity: 0;
-      transform: scale3d(.95, .95, .95);
+
     }
     100% {
       opacity: 1;
-      transform: scale3d(1,1,1);
+
     }
   }
 
