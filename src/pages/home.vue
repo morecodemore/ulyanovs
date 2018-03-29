@@ -534,33 +534,9 @@ export default {
     position: relative;
     display: flex;
     @extend %flex-center;
-<<<<<<< HEAD
-    height: 500px;
-  }
-
-  #projecting {
-      background: url('../../static/img/prototiping.jpg') center repeat-y;
-    background-size: 100%;
-  }
-
-  #design {
-    background: url('../../static/img/design.jpg') center repeat-y;
-    background-size: 100%;
-  }
-
-  #page_making {
-    background: url('../../static/img/page_making.jpg') center repeat-y;
-    background-size: 100%;
-  }
-
-  #frontend {
-    background: url('../../static/img/frontend.jpg') 0 30% repeat-y;
-    background-size: 100%;
-=======
     height: 200px;
     border-top: 10px solid $thin_black;
     border-bottom: 10px solid $thin_black;
->>>>>>> b1ffb089e2cb91a9ed19e0ae25a2e9da50815f89
   }
 
   .modal-info-foto-block p {
@@ -628,7 +604,7 @@ export default {
   .rout-link a::after {
     content: '';
     position: absolute;
-    bottom: -5px;
+    bottom: 0;
     left: 0;
     width: 100%;
     height: 1px;
@@ -645,8 +621,8 @@ export default {
 
   .rout-link {
     position: fixed;
+    bottom: 10px;
     padding: 30px;
-    bottom: 0;
   }
 
   .rout-link a {
@@ -663,7 +639,7 @@ export default {
   }
 
   .nextLink {
-    right: 0;
+    right: 10px;
   }
 
   /***Portfolio block***/
