@@ -574,7 +574,7 @@ export default {
     margin-top: 70px;
     min-height: 50vh;
     display: flex;
-    align-items: center;
+    @extend %flex-center;
     border-top: 1px solid $thin_black;
     border-bottom: 1px solid $thin_black;
   }
