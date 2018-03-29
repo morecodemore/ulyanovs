@@ -521,22 +521,22 @@ export default {
   }
 
   #projecting {
-    background: url('../../static/img/for_develop_text/prototiping.jpg') center repeat-y;
+      background: url('../../static/img/prototiping.jpg') center repeat-y;
     background-size: 100%;
   }
 
   #design {
-    background: url('../../static/img/for_develop_text/design.jpg') center repeat-y;
+    background: url('../../static/img/design.jpg') center repeat-y;
     background-size: 100%;
   }
 
   #page_making {
-    background: url('../../static/img/for_develop_text/page_making.jpg') center repeat-y;
+    background: url('../../static/img/page_making.jpg') center repeat-y;
     background-size: 100%;
   }
 
   #frontend {
-    background: url('../../static/img/for_develop_text/frontend.jpg') 0 30% repeat-y;
+    background: url('../../static/img/frontend.jpg') 0 30% repeat-y;
     background-size: 100%;
   }
 
