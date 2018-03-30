@@ -104,6 +104,7 @@
           <button class="close-modal-info" id="modal-close" @click="closeModal" v-lang.home.closeText></button>
           <div>
             <h3 class="modal-info-heading" v-lang.info.title></h3>
+            <p class="modal-info-text container" v-lang.info.text></p>
             <div class="modal-info-section">
               <div class="modal-info-foto-block projecting-foto"><p v-lang.info.projecting></p></div>
               <p class="modal-info-text container" v-lang.info.text></p>
