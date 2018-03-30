@@ -62,7 +62,7 @@
     },
     {
       "id": 6,
-      "url": "jewelry_catalog",
+      "url": "openmedcom",
       "tags": ["Projecting"],
       "image": {
         "thumb": ["static/img/works/prev/landing.png", "static/img/works/big/catalog.png"]
