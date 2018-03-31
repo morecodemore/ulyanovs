@@ -10,13 +10,48 @@ $active:                   24px;
 $tag:                      14px;
 $mask-text:                18px;
 $copyright:                16px;
-  //&-mobile
+  //1249px
+  $h1-l:                   50px;
+  $heading-l:              34px;
+  $p-l:                    24px;
+  $active-l:               20px;
+  $tag-l:                  12px;
+  $mask-text-l:            16px;
+  $copyright-l:            14px;
+  //1040px
+  $h1-t:                   35px;
+  $heading-t:              24px;
+  $p-t:                    20px;
+  $active-t:               18px;
+  $tag-t:                  12px;
+  $mask-text-t:            16px;
+  $copyright-t:            11px;
+  //768px
+  $h1-m:                   20px;
+  $heading-m:              16px;
+  $p-m:                    14px;
+  $active-m:               14px;
+  $tag-m:                  10px;
+  $mask-text-m:            14px;
+  $copyright-m:            10px;
 
 //*line-height
 $h1-height:                75px;
 $p-height:                 55px;
 $mask-height:              30px;
-  //&-mobile
+  //1249px
+  $h1-height-l:            65px;
+  $p-height-l:             45px;
+  $mask-height-l:          25px;
+  //1040px
+  $h1-height-t:            45px;
+  $p-height-t:             35px;
+  $mask-height-t:          25px;
+  //768px
+  $h1-height-m:            25px;
+  $p-height-m:             22px;
+  $mask-height-m:          20px;
+
 
 //*font-weight
 $light:                    300;

@@ -293,11 +293,7 @@ export default {
       const body = document.querySelector('body');
       this.modal = !this.modal;
       body.classList.remove('hidden');
-    },
-
-
-  },
-  created() {
+    }
   },
   name: 'home'
 }
@@ -323,6 +319,21 @@ export default {
 
   .title {
     display: inline-block;
+    animation: title 2s ease-in-out;
+  }
+
+  @keyframes title {
+    0% {
+       opacity: 0;
+       transform: translateX(-10vw);
+     }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   .subtitle {
@@ -330,6 +341,7 @@ export default {
     font-size: $heading;
     line-height: $h1-height;
     color: $grey;
+    animation: title 2.1s ease-in-out;
   }
 
   /***About-me***/
@@ -943,14 +955,6 @@ export default {
     fill: #1F7FAF;
   }
 
-
-  @media only screen and (max-width: 1140px) {
-
-  }
-
-  @media only screen and (max-width: 768px) {
-  }
-
   /***Animation***/
   @keyframes scale {
     to {
@@ -975,6 +979,677 @@ export default {
     100% {
       opacity: 1;
 
+    }
+  }
+
+  @media only screen and (max-width: 1249px) {
+
+    .title-block {
+      margin-top: 150px;
+      margin-bottom: 150px;
+      padding-left: 70px;
+    }
+
+    .subtitle {
+      font-size: $heading-l;
+      line-height: $h1-height-l;
+      color: $grey;
+    }
+
+    /***About-me***/
+    .me-foto {
+      min-width: 450px;
+      height: 630px;
+    }
+
+    .me-foto img {
+      height: 630px;
+    }
+
+    .text-wrapper {
+      width: 60vw;
+      max-width: 810px;
+    }
+
+    .about-me-heading {
+      padding-left: 100px;
+      margin-bottom: 50px;
+      text-align: left;
+    }
+
+    .about-me-text {
+      padding: 0 50px 0 100px;
+    }
+
+    /***I can***/
+
+    .i-can-heading {
+      font-size: $heading-l;
+    }
+
+    .i-can-section:not(:last-child)::after {
+      left: calc(50% - 40px);
+      width: 80px;
+      height: 8px;
+    }
+
+    .text {
+      max-width: 370px;
+    }
+
+    .i-can-section-part img {
+      max-width: 370px;
+    }
+
+    .link-wrapper {
+      margin-top: 25px;
+    }
+
+    .portfolio-link {
+      font-size: $active-l;
+      line-height: 20px;
+    }
+
+    .link-arrow {
+      margin-left: 5px;
+      width: 15px;
+      height: 15px;
+    }
+
+    .use-title {
+      margin-top: 55px;
+    }
+
+    .use-logo-block {
+      margin-top: 10px;
+    }
+
+    .use-logo {
+      height: 30px;
+    }
+
+    .use-logo:not(last-child) {
+      margin-right: 10px;
+    }
+
+    /***Info block***/
+
+    .info-text {
+      margin: 40px auto 0;
+      max-width: 800px;
+    }
+
+    .modal-info-block {
+      padding: 110px 0;
+      border: 10px solid $thin_black;
+    }
+
+    .modal-info-text {
+      margin-top: 60px;
+      font-size: $p-l;
+    }
+
+    .modal-info-foto-block {
+      margin-top: 50px;
+      height: 150px;
+    }
+
+    .modal-info-foto-block p {
+      font-size: $h1-l;
+    }
+
+    .close-modal-info {
+      padding: 20px;
+      top: 15px;
+      right: 30px;
+      font-size: $active-l;
+    }
+
+    .modal-img-big {
+      margin-top: 50px;
+      min-height: 60vh;
+    }
+
+    .link-wrapper-modal p:not(:first-child) {
+      margin-top: 20px;
+    }
+
+    .rout-link a {
+      padding: 7px 25px;
+    }
+
+    /***Portfolio block***/
+
+    .portfolio-item {
+      margin-top: 70px;
+    }
+
+    .item-preview {
+      width: 400px;
+      height: 400px;
+    }
+
+    .item-preview img {
+      max-width: 250px;
+    }
+
+    .item-info {
+      padding: 20px;
+      width: 398px;
+      height: 398px;
+    }
+
+    .tag {
+      padding: 12px;
+      font-size: $tag-l;
+      line-height: $tag-l;
+    }
+
+    .item-text {
+      padding: 25px 15px;
+      font-size: $mask-text-l;
+      line-height: $mask-height-l;
+      border-left: 5px solid $white;
+    }
+
+    .info-link-wrapper > a {
+      font-size: $mask-text-l;
+    }
+
+    .info-link-wrapper .info-link-arrow {
+      margin-left: 4px;
+      width: 12px;
+      height: 12px;
+    }
+
+
+    /***Letter block***/
+
+    .letter-text {
+      margin: 50px 0;
+    }
+
+    .letter-link {
+      font-size: $h1-l;
+    }
+
+    .letter-link::after {
+      bottom: -10px;
+      left: 0;
+    }
+
+    .letter-link:hover::after {
+      height: calc(100% + 15px);
+    }
+
+    /***Social links***/
+
+    .my-social-networks {
+      margin-top: 80px;
+    }
+  }
+
+  @media only screen and (max-width: 1040px) {
+
+    .title-block {
+      margin-top: 120px;
+      margin-bottom: 120px;
+      padding-left: 50px;
+    }
+
+    .subtitle {
+      font-size: $heading-t;
+      line-height: $h1-height-t;
+      color: $grey;
+    }
+
+    /***About-me***/
+
+    .about-me {
+      padding: 80px 0;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .me-foto {
+      margin-bottom: 50px;
+      min-width: 250px;
+      width: 66vw;
+      height: auto;
+
+    }
+
+    .me-foto img {
+      margin-left: 0;
+      height: 66vw;
+      min-height: 250px;
+    }
+
+    .text-wrapper {
+      width: 66vw;
+    }
+
+    .about-me-heading {
+      padding-left: 0;
+      margin-bottom: 30px;
+      font-size: $heading-t;
+      text-align: left;
+    }
+
+    .about-me-text {
+      padding: 0;
+    }
+
+    /***I can***/
+
+    .i-can-heading {
+      font-size: $heading-t;
+    }
+
+    .i-can-section, .i-can-section:nth-child(2n + 1) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .i-can-section-part {
+      width: 100%;
+    }
+
+    .text {
+      margin-top: 40px;
+      width: 50vw;
+      max-width: 50vw;
+    }
+
+    .i-can-section-part img:not(.use-logo) {
+      max-width: 100%;
+      width: 50vw;
+      min-width: 250px;
+    }
+
+    .link-wrapper {
+      margin-top: 25px;
+    }
+
+    .portfolio-link {
+      font-size: $active-t;
+      line-height: 20px;
+    }
+
+    .link-arrow {
+      margin-left: 4px;
+      width: 13px;
+      height: 13px;
+    }
+
+    .use-title {
+      margin-top: 30px;
+    }
+
+    .use-logo-block {
+      margin-top: 15px;
+    }
+
+    .use-logo {
+      height: 35px;
+    }
+
+    .use-logo:not(last-child) {
+      margin-right: 12px;
+    }
+
+    /***Info block***/
+
+    .info-text {
+      margin: 30px auto 0;
+      max-width: 70vw;
+    }
+
+    .modal-info-block {
+      padding: 80px 0;
+      border: 10px solid $thin_black;
+    }
+
+    .modal-info-text {
+      margin-top: 40px;
+      max-width: 85vw;
+      font-size: $p-t;
+    }
+
+    .modal-info-foto-block {
+      margin-top: 40px;
+      height: 120px;
+    }
+
+    .modal-info-foto-block p {
+      font-size: $h1-t;
+    }
+
+    .close-modal-info {
+      padding: 20px;
+      top: 15px;
+      right: 30px;
+      font-size: $active-t;
+    }
+
+    .modal-img-big {
+      margin-top: 40px;
+      min-height: 60vh;
+    }
+
+    .link-wrapper-modal p:not(:first-child) {
+      margin-top: 20px;
+    }
+
+    .rout-link a {
+      padding: 7px 25px;
+    }
+
+    /***Portfolio block***/
+
+    .portfolio-item {
+      width: 100%;
+      margin-top: 70px;
+    }
+
+    .item-preview {
+      margin-bottom: 300px;
+      width: 50vw;
+      height: 30vw;
+    }
+
+    .item-preview img {
+      max-width: 30vw;
+    }
+
+    .item-info {
+      display: flex;
+      position: absolute;
+      top: calc(30vw - 1px);
+      left: -1px;
+      width: 50vw;
+      height: auto;
+      min-height: 250px;
+    }
+
+    .tag {
+      margin-bottom: 15px;
+      font-size: $tag-t;
+      line-height: $tag-t;
+    }
+
+    .item-text {
+      font-size: $mask-text-t;
+      line-height: $mask-height-t;
+    }
+
+    .info-link-wrapper > a {
+      font-size: $mask-text-t;
+    }
+
+
+    /***Letter block***/
+
+    .letter-text {
+      margin: 40px 0;
+    }
+
+    .letter-link {
+      font-size: $h1-t;
+    }
+
+    .letter-link::after {
+      bottom: -7px;
+    }
+
+    .letter-link:hover::after {
+      height: calc(100% + 12px);
+    }
+
+    /***Social links***/
+
+    .my-social-networks {
+      margin-top: 50px;
+    }
+
+    .social-networks-links {
+      margin-right: 50px;
+      width: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .title-block {
+      margin-top: 80px;
+      margin-bottom: 80px;
+      padding-left: 20px;
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      font-size: $heading-m;
+      line-height: 22px;
+      color: $grey;
+    }
+
+    /***About-me***/
+
+    .about-me {
+      padding: 40px 0;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .me-foto {
+      margin-bottom: 30px;
+      min-width: 220px;
+      width: 66vw;
+      height: auto;
+    }
+
+    .me-foto img {
+      margin-left: 0;
+      height: 66vw;
+      min-height: 220px;
+    }
+
+    .text-wrapper {
+      width: 66vw;
+    }
+
+    .about-me-heading {
+      padding-left: 0;
+      margin-bottom: 15px;
+      font-size: $heading-m;
+      text-align: left;
+    }
+
+    .about-me-text {
+      padding: 0;
+    }
+
+    /***I can***/
+
+    .i-can-heading {
+      font-size: $heading-m;
+    }
+
+    .i-can-section, .i-can-section:nth-child(2n + 1) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .i-can-section-part {
+      width: 100%;
+    }
+
+    .text {
+      margin-top: 20px;
+      width: 66vw;
+      max-width: 66vw;
+    }
+
+    .i-can-section-part img:not(.use-logo) {
+      max-width: 100%;
+      width: 66vw;
+      min-width: 220px;
+    }
+
+    .link-wrapper {
+      margin-top: 20px;
+    }
+
+    .portfolio-link {
+      font-size: $active-m;
+      line-height: 14px;
+    }
+
+    .link-arrow {
+      margin-left: 3px;
+      width: 11px;
+      height: 11px;
+    }
+
+    .use-title {
+      margin-top: 25px;
+    }
+
+    .use-logo-block {
+      margin-top: 10px;
+    }
+
+    .use-logo {
+      height: 20px;
+    }
+
+    .use-logo:not(last-child) {
+      margin-right: 8px;
+    }
+
+    .i-can-section:not(:last-child)::after {
+      left: calc(50% - 30px);
+      width: 60px;
+      height: 5px;
+    }
+
+    /***Info block***/
+
+    .info-text {
+      margin: 30px auto 0;
+      max-width: 80vw;
+    }
+
+    .modal-info-block {
+      padding: 50px 0;
+      border: 10px solid $thin_black;
+    }
+
+    .modal-info-text {
+      margin-top: 30px;
+      max-width: 90vw;
+      font-size: $p-m;
+    }
+
+    .modal-info-foto-block {
+      margin-top: 30px;
+      height: 100px;
+    }
+
+    .modal-info-foto-block p {
+      font-size: $h1-m;
+    }
+
+    .close-modal-info {
+      padding: 15px;
+      top: 15px;
+      right: 20px;
+      font-size: $active-m;
+    }
+
+    .modal-img-big {
+      margin-top: 40px;
+      min-height: 60vh;
+    }
+
+    .link-wrapper-modal p:not(:first-child) {
+      margin-top: 20px;
+    }
+
+    .rout-link a {
+      padding: 7px 25px;
+    }
+
+    /***Portfolio block***/
+
+    .portfolio-item {
+      width: 100%;
+      margin-top: 70px;
+    }
+
+    .item-preview {
+      margin-bottom: 300px;
+      width: 50vw;
+      height: 30vw;
+    }
+
+    .item-preview img {
+      max-width: 30vw;
+    }
+
+    .item-info {
+      display: flex;
+      position: absolute;
+      top: calc(30vw - 1px);
+      left: -1px;
+      width: 50vw;
+      height: auto;
+      min-height: 250px;
+    }
+
+    .tag {
+      margin-bottom: 15px;
+      font-size: $tag-t;
+      line-height: $tag-t;
+    }
+
+    .item-text {
+      font-size: $mask-text-t;
+      line-height: $mask-height-t;
+    }
+
+    .info-link-wrapper > a {
+      font-size: $mask-text-t;
+    }
+
+
+    /***Letter block***/
+
+    .letter-text {
+      margin: 40px 0;
+    }
+
+    .letter-link {
+      font-size: $h1-m;
+    }
+
+    .letter-link::after {
+      bottom: -7px;
+    }
+
+    .letter-link:hover::after {
+      height: calc(100% + 12px);
+    }
+
+    /***Social links***/
+
+    .my-social-networks {
+      margin-top: 50px;
+    }
+
+    .social-networks-links {
+      margin-right: 50px;
+      width: 40px;
     }
   }
 
