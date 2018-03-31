@@ -107,18 +107,22 @@
             <p class="modal-info-text container" v-lang.info.textPrev></p>
             <div class="modal-info-section">
               <div class="modal-info-foto-block projecting-foto"><p v-lang.info.projecting></p></div>
+              <div class="info-modal-img-block"><img src="static/img/info/prototiping.jpg" alt="prototiping"></div>
               <p class="modal-info-text container" v-lang.info.textProjecting></p>
             </div>
             <div class="modal-info-section">
               <div class="modal-info-foto-block design-foto"><p v-lang.info.design></p></div>
+              <div class="info-modal-img-block"><img src="static/img/info/design.jpg" alt="design"></div>
               <p class="modal-info-text container" v-lang.info.textDesign></p>
             </div>
             <div class="modal-info-section">
               <div class="modal-info-foto-block page_making-foto"><p v-lang.info.page_making></p></div>
+              <div class="info-modal-img-block"><img src="static/img/info/page_making.jpg" alt="design"></div>
               <p class="modal-info-text container" v-lang.info.textPage_making></p>
             </div>
             <div class="modal-info-section">
               <div class="modal-info-foto-block frontend-foto"><p v-lang.info.frontend></p></div>
+              <div class="info-modal-img-block"><img src="static/img/info/frontend.jpg" alt="design"></div>
               <p class="modal-info-text container" v-lang.info.textFrontend></p>
             </div>
             <a name="links"></a>
@@ -542,6 +546,20 @@ export default {
 
   .modal-info-heading {
     @extend %heading;
+  }
+
+  .info-modal-img-block {
+    @extend %container-fluid;
+    height: auto;
+    max-height: 500px;
+    display: flex;
+    @extend %flex-center;
+    overflow: hidden;
+  }
+
+  .info-modal-img-block img {
+    width: inherit;
+    height: auto;
   }
 
   .modal-info-text {
