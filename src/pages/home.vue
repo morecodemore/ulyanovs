@@ -1423,7 +1423,8 @@ export default {
     .title-block {
       margin-top: 80px;
       margin-bottom: 80px;
-      padding-left: 20px;
+      padding-left: 30px;
+      padding-right: 20px;
     }
 
     .subtitle {
@@ -1444,18 +1445,18 @@ export default {
     .me-foto {
       margin-bottom: 30px;
       min-width: 220px;
-      width: 66vw;
+      width: 80vw;
       height: auto;
     }
 
     .me-foto img {
       margin-left: 0;
-      height: 66vw;
+      height: 80vw;
       min-height: 220px;
     }
 
     .text-wrapper {
-      width: 66vw;
+      width: 80vw;
     }
 
     .about-me-heading {
@@ -1547,7 +1548,7 @@ export default {
 
     .modal-info-text {
       margin-top: 30px;
-      max-width: 90vw;
+      max-width: 85vw;
       font-size: $p-m;
     }
 
@@ -1567,6 +1568,15 @@ export default {
       font-size: $active-m;
     }
 
+    .modal-info-heading {
+      max-width: 85vw;
+      line-height: 24px;
+    }
+
+    .modal-link {
+      word-wrap: break-word;
+    }
+
     .modal-img-big {
       margin-top: 40px;
       min-height: 60vh;
@@ -1584,42 +1594,43 @@ export default {
 
     .portfolio-item {
       width: 100%;
-      margin-top: 70px;
+      margin-top: 50px;
     }
 
     .item-preview {
-      margin-bottom: 300px;
-      width: 50vw;
-      height: 30vw;
+      margin-bottom: 280px;
+      width: 80vw;
+      height: 50vw;
     }
 
     .item-preview img {
-      max-width: 30vw;
+      max-width: 50vw;
     }
 
     .item-info {
       display: flex;
       position: absolute;
-      top: calc(30vw - 1px);
+      top: calc(50vw - 1px);
       left: -1px;
-      width: 50vw;
+      width: 80vw;
       height: auto;
       min-height: 250px;
     }
 
     .tag {
+      padding: 10px;
       margin-bottom: 15px;
-      font-size: $tag-t;
-      line-height: $tag-t;
+      font-size: $tag-m;
+      line-height: $tag-m;
     }
 
     .item-text {
-      font-size: $mask-text-t;
-      line-height: $mask-height-t;
+      font-size: $mask-text-m;
+      line-height: $mask-height-m;
     }
 
     .info-link-wrapper > a {
-      font-size: $mask-text-t;
+      font-size: $mask-text-m;
     }
 
 
