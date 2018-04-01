@@ -352,6 +352,7 @@ export default {
     padding: 0;
     background: $black;
     border: none;
+    animation: viewBlock 2.3s ease-in-out;
   }
 
   .me-foto {
@@ -361,6 +362,7 @@ export default {
     height: 775px;
     text-align: center;
     overflow: hidden;
+    animation: viewBlock 2.6s ease-in-out;
   }
 
   .me-foto img {
@@ -629,6 +631,7 @@ export default {
     @extend %flex-center;
     border-top: 1px solid $thin_black;
     border-bottom: 1px solid $thin_black;
+    animation: viewBlock 1.2s ease-in-out;
   }
 
   .link-heading {
@@ -979,6 +982,20 @@ export default {
     100% {
       opacity: 1;
 
+    }
+  }
+
+  @keyframes viewBlock {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 
@@ -1428,7 +1445,7 @@ export default {
     }
 
     .subtitle {
-      margin-top: 10px;
+      margin-top: 5px;
       font-size: $heading-m;
       line-height: 22px;
       color: $grey;
@@ -1645,11 +1662,11 @@ export default {
     }
 
     .letter-link::after {
-      bottom: -7px;
+      bottom: -4px;
     }
 
     .letter-link:hover::after {
-      height: calc(100% + 12px);
+      height: calc(100% + 8px);
     }
 
     /***Social links***/
