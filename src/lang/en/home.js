@@ -1,6 +1,6 @@
 export default {
   title: '<span>Hello!</span> <span>Here do sites!</span>',
-  subtitle: '<span>Projecting</span>. <span>Design.</span> <span>Page making.</span> <span>Fronted.</span>',
+  subtitle: '<span>Projecting</span>. <span>Design.</span> <span>Page making.</span> <span>Frontend.</span>',
   aboutMeHeading: 'WHO IS DOING?',
   aboutMeText: 'My name is <b>Ulyanov Maxim.</b> Currently I work as a frontend developer in <b>Studio 256</b>. <br> Most of my time I\'m dedicated to professional growth. I will be glad to translate your dreams into code!',
   prototypingText:'Available and in detail will present prototypes of your future site.',
