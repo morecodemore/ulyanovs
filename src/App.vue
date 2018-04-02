@@ -26,18 +26,8 @@ export default {
     }
   },
   methods: {
-    menuNoneKey() {
-      window.addEventListener("keydown", function (evt) {
-        if (evt.keyCode === 27) {
-          this.show = !this.show;
-          this.modal = !this.modal;
-          body.classList.remove('hidden')
-        }
-      });
-      }
   },
   created() {
-  this.menuNoneKey();
   },
   name: 'App'
 }
@@ -60,9 +50,11 @@ export default {
     background: $red;
   }
   html {
+    min-width: 320px;
     scroll-behavior: smooth;
     background: $white;
   }
+
   body {
     margin-bottom: 385px;
     position: relative;
@@ -107,6 +99,16 @@ export default {
 
   .logo {
     width: 450px;
+    animation: logo 1.2s ease-in-out;
+  }
+
+  @keyframes logo {
+    0% {
+      transform: translateX(-100vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
 
   footer {
@@ -129,15 +131,96 @@ export default {
     color: $black-red;
   }
 
-  @media only screen and (max-width: 1140px) {
+  .hidden {
+    overflow: hidden;
+  }
+
+  @media only screen and (max-width: 1249px) {
+
+    body {
+      margin-bottom: 330px !important;
+    }
+
+    h1 {
+      font-size: $h1-l;
+    }
+
+    nav {
+      height: 130px;
+    }
+
+    .logo {
+      width: 350px;
+    }
+
+    footer {
+      height: 330px;
+    }
+
+    .copyright {
+      margin-top: 30px;
+      font-size: $copyright-l;
+      line-height: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 1040px) {
+
+    body {
+      margin-bottom: 250px !important;
+    }
+
+    h1 {
+      font-size: $h1-t;
+    }
+
+    nav {
+      height: 100px;
+    }
+
+    .logo {
+      width: 250px;
+    }
+
+    footer {
+      height: 250px;
+    }
+
+    .copyright {
+      margin-top: 20px;
+      font-size: $copyright-t;
+      line-height: 18px;
+    }
   }
 
   @media only screen and (max-width: 768px) {
 
-  }
+    body {
+      margin-bottom: 170px !important;
+    }
 
-  .hidden {
-    overflow: hidden;
+    h1 {
+      font-size: $h1-m;
+      line-height: $h1-height-m;
+    }
+
+    nav {
+      height: 70px;
+    }
+
+    .logo {
+      width: 170px;
+    }
+
+    footer {
+      height: 170px;
+    }
+
+    .copyright {
+      margin-top: 20px;
+      font-size: $copyright-m;
+      line-height: 18px;
+    }
   }
 
 
