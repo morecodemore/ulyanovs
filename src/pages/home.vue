@@ -597,6 +597,7 @@ export default {
     z-index: 20;
     text-transform: uppercase;
     font-size: $h1;
+    font-weight: $extra_bold;
     color: $black;
   }
 
@@ -1009,6 +1010,7 @@ export default {
 
     .subtitle {
       font-size: $heading-l;
+      font-weight: $extra_bold;
       line-height: $h1-height-l;
       color: $grey;
     }
@@ -1041,6 +1043,7 @@ export default {
     /***I can***/
 
     .i-can-heading {
+      font-weight: $extra_bold;
       font-size: $heading-l;
     }
 
