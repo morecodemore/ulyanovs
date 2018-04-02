@@ -339,6 +339,7 @@ export default {
   .subtitle {
     display: inline-block;
     font-size: $heading;
+    font-weight: $extra_bold;
     line-height: $h1-height;
     color: $grey;
     animation: title 2.1s ease-in-out;
@@ -409,6 +410,7 @@ export default {
   .i-can-heading {
     font-size: $heading;
     font-family: $family;
+    font-weight: $extra_bold;
     text-align: center;
   }
 
