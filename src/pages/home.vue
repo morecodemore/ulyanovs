@@ -100,7 +100,7 @@
       <p class="info-text" v-lang.home.infoTextTitle></p>
       <p class="info-text"><span v-lang.home.infoTextPharagraph1></span><a href="#portfolio" class="info-link" v-lang.home.infoTextPharagraphLink1></a><span v-lang.home.infoTextPharagraph2></span><a class="info-link" id="modal-button" @click="viewModal" v-lang.home.infoTextPharagraphLink2></a><span v-lang.home.infoTextPharagraph3></span></p>
       <transition name="modal">
-        <div class="modal-info-block" id="modal-info" v-show="!show">
+        <div class="modal-info-block" id="modal-info" v-if="!show">
           <button class="close-modal-info" id="modal-close" @click="closeModal" v-lang.home.closeText></button>
           <div>
             <h3 class="modal-info-heading" v-lang.info.title></h3>
@@ -363,7 +363,6 @@ export default {
     height: 775px;
     text-align: center;
     overflow: hidden;
-    animation: viewBlock 2.6s ease-in-out;
   }
 
   .me-foto img {
@@ -412,6 +411,7 @@ export default {
     font-family: $family;
     font-weight: $extra_bold;
     text-align: center;
+    animation: viewBlock 2.45s ease-in-out;
   }
 
   .i-can-section {
@@ -419,6 +419,7 @@ export default {
     display: flex;
     @extend %home-section;
     border: none;
+    animation: viewBlock 2.5s ease-in-out;
   }
 
   .i-can-section:nth-child(2n + 1) {
@@ -531,11 +532,12 @@ export default {
 
   /***Info block***/
   .info-block {
-    @extend %home-section
+    @extend %home-section;
   }
 
   .info-heading {
-    @extend %heading
+    @extend %heading;
+    animation: viewBlock 2.45s ease-in-out;
   }
 
   .info-text {
@@ -543,6 +545,7 @@ export default {
     max-width: 900px;
     font-family: $family-pharagraph;
     font-weight: $normal;
+    animation: viewBlock 2.5s ease-in-out;
   }
 
   .modal-info-block {
@@ -707,7 +710,8 @@ export default {
   }
 
   .portfolio-heading {
-    @extend  %heading
+    @extend  %heading;
+    animation: viewBlock 2.45s ease-in-out;
   }
 
   .portfolio-items-block {
@@ -720,6 +724,7 @@ export default {
     display: flex;
     @extend %flex-center;
     width: 50%;
+    animation: viewBlock 2.5s ease-in-out;
   }
 
   .item-preview {
@@ -838,15 +843,18 @@ export default {
     margin: 70px 0;
     font-family: $family-pharagraph;
     text-align: center;
+    animation: viewBlock 2.5s ease-in-out;
   }
 
   .letter-heading {
-    @extend %heading
+    @extend %heading;
+    animation: viewBlock 2.45s ease-in-out;
   }
 
   .letter-link-wrapper {
     display: flex;
     justify-content: center;
+    animation: viewBlock 2.6s ease-in-out;
   }
 
   .letter-link {
@@ -884,11 +892,13 @@ export default {
   /***Social links***/
   .social-heading {
     @extend %heading;
+    animation: viewBlock 2.45s ease-in-out;
   }
 
   .social-links {
     @extend %container-fluid;
-    @extend %home-section
+    @extend %home-section;
+    animation: viewBlock 2.5s ease-in-out;
   }
 
   .my-social-networks {
@@ -993,7 +1003,7 @@ export default {
       opacity: 0;
       transform: translateY(-100px);
     }
-    80% {
+    60% {
       opacity: 0;
     }
     100% {
