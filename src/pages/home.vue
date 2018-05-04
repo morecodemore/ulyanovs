@@ -588,6 +588,8 @@ export default {
     font-size: $p;
   }
 
+
+
   .modal-info-foto-block {
     margin-top: 70px;
     position: relative;
@@ -1582,6 +1584,7 @@ export default {
       margin-top: 30px;
       max-width: 85vw;
       font-size: $p-m;
+      animation: viewText 1.5s ease-in-out;
     }
 
     .modal-info-foto-block {
@@ -1603,6 +1606,16 @@ export default {
     .modal-info-heading {
       max-width: 85vw;
       line-height: 24px;
+      animation: viewText 1s ease-in-out;
+    }
+
+    @keyframes viewText {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
     }
 
     .modal-link {
