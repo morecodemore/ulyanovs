@@ -33,7 +33,7 @@
       },
       "title": "Information lending of Jewelry catalog",
       "description": ["Information lending of one of the products Studio 256 - Jewelry catalog.", "Landing reveals the essence of the product. Easy texts are supplemented with graphics and animation, demonstrating the capabilities and benefits of the developed service. I prepared the graphics, and then packed it into a nice and fresh design. Then he made an adaptive layout and revived the JS."],
-      "link": ["https://mycatalog.pro/"],
+      "link": ["http://mycatalog.pro/"],
       "linkHeading": ["Project website: "]
     },
     {
@@ -83,6 +83,30 @@
       "description": ["Designing prototypes and the template of the promotional page.", "As a gift from the developer's studio, we prepared a summary of the results for 2017 for the client. On the basis of statistical data, I marked up an interactive map by region, indicating the number of users in each of them. Further, proceeding from the existing design, I assembled a design page layout. The client was pleasantly surprised."],
       "link": ["https://openmedcom.ru/pages/promo", "https://codepen.io/ulyanov2022/pen/eybKxL"],
       "linkHeading": ["Making page: ", "Interactive map: "]
+    },
+    {
+      "id": 8,
+      "url": "mst",
+      "tags": ["Page making", "Interactive"],
+      "image": {
+        "thumb": ["static/img/works/prev/mst.png", "static/img/works/big/mst.png"]
+      },
+      "title": "The site of the company «Bridge building technologies»",
+      "description": ["Page making according to the customer's design.", "MST is a large distributor of products for construction, in particular bridges and reinforced concrete structures. Feature of the project: the block of the multilevel menu which conveniently adapts for smart phones and tablets. The site looks great in all modern browsers, including IE11."],
+      "link": ["https://morecodemore.github.io/mst.online/"],
+      "linkHeading": ["Making page: "]
+    },
+    {
+      "id": 9,
+      "url": "stroymost",
+      "tags": ["Page making","Interactive"],
+      "image": {
+        "thumb": ["static/img/works/prev/stroymost.png", "static/img/works/big/stroymost.png"]
+      },
+      "title": "The site of the company IC «Stroymost»",
+      "description": ["Page making according to the customer's design.", "IC «Stroymost» is another distributor of products for construction. The layout of the project was implemented using a template and a component approach to development. Naming of classes and the project structure corresponds to the BEM methodology. The site looks great in all modern browsers, including IE11."],
+      "link": ["https://morecodemore.github.io/stroymost.online/"],
+      "linkHeading": ["Сверстанный проект: "]
     }
   ]
 }
