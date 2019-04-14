@@ -5,11 +5,20 @@
       "url": "device",
       "tags": ["Page making"],
       "image": {
-        "thumb": ["static/img/works/prev/device.png", "static/img/works/big/device.png"]
+        "thumb": [
+          "static/img/works/prev/device.png",
+          "static/img/works/big/device.png"
+        ]
       },
       "title": "DEVICE - online gadget store",
-      "description": ["The educational project of the basic intensity for imposition from Html Academy.", "The project was compiled according to the model, which I chose on an intensive basis. The project was tested according to the criteria for the technical side of the code. Also, the compliance of the layout and layout to pixel perfect was checked. The project was the most difficult on an intensive basis, according to the authors. I defended it 100%."],
-      "link": ["https://morecodemore.github.io/device/index.html", "https://morecodemore.github.io/device/catalog.html"],
+      "description": [
+        "The educational project of the basic intensity for imposition from Html Academy.",
+        "The project was compiled according to the model, which I chose on an intensive basis. The project was tested according to the criteria for the technical side of the code. Also, the compliance of the layout and layout to pixel perfect was checked. The project was the most difficult on an intensive basis, according to the authors. I defended it 100%."
+      ],
+      "link": [
+        "https://morecodemore.github.io/device/index.html",
+        "https://morecodemore.github.io/device/catalog.html"
+      ],
       "linkHeading": ["Main page: ", "Catalog page: "]
     },
     {
@@ -17,34 +26,52 @@
       "url": "bikees",
       "tags": ["Page making"],
       "image": {
-        "thumb": ["static/img/works/prev/bikees.png", "static/img/works/big/bikees.png"]
+        "thumb": [
+          "static/img/works/prev/bikees.png",
+          "static/img/works/big/bikees.png"
+        ]
       },
       "title": "Bikees - online bicycle shop",
-      "description": ["Educational project adaptive layout of the main page of the online bike shop.", "I implemented this project as a training for the practice of flexible layout of blocks on Flexbox and adaptive layout."],
+      "description": [
+        "Educational project adaptive layout of the main page of the online bike shop.",
+        "I implemented this project as a training for the practice of flexible layout of blocks on Flexbox and adaptive layout."
+      ],
       "link": ["https://morecodemore.github.io/bikees/"],
-      "linkHeading": ["Main page: "  ]
+      "linkHeading": ["Main page: "]
     },
     {
       "id": 3,
       "url": "jewelry_catalog_landing",
-        "tags": ["Design","Page making","Interactive"],
+      "tags": ["Design", "Page making", "Interactive"],
       "image": {
-        "thumb": ["static/img/works/prev/catalog.png", "static/img/works/big/catalog_landing.png"]
+        "thumb": [
+          "static/img/works/prev/catalog.png",
+          "static/img/works/big/catalog_landing.png"
+        ]
       },
       "title": "Information lending of Jewelry catalog",
-      "description": ["Information lending of one of the products Studio 256 - Jewelry catalog.", "Landing reveals the essence of the product. Easy texts are supplemented with graphics and animation, demonstrating the capabilities and benefits of the developed service. I prepared the graphics, and then packed it into a nice and fresh design. Then he made an adaptive layout and revived the JS."],
+      "description": [
+        "Information lending of one of the products Studio 256 - Jewelry catalog.",
+        "Landing reveals the essence of the product. Easy texts are supplemented with graphics and animation, demonstrating the capabilities and benefits of the developed service. I prepared the graphics, and then packed it into a nice and fresh design. Then he made an adaptive layout and revived the JS."
+      ],
       "link": ["https://mycatalog.pro/"],
       "linkHeading": ["Project website: "]
     },
     {
       "id": 4,
       "url": "patskan",
-      "tags": ["Design","Page making","Frontend"],
+      "tags": ["Design", "Page making", "Frontend"],
       "image": {
-        "thumb": ["static/img/works/prev/patskan.png", "static/img/works/big/patsckan.png"]
+        "thumb": [
+          "static/img/works/prev/patskan.png",
+          "static/img/works/big/patsckan.png"
+        ]
       },
       "title": "Patskan - artist's portfolio",
-      "description": ["Full cycle of portfolio development for the artist.", "This work is a small one-page web application with page routing and transition animation. The customer defined the concept of the project. Based on the wishes of the customer, I projecting the design of the site. Next, I created it and wrote the frontend to the project logic on Vue.js. The site is in test mode."],
+      "description": [
+        "Full cycle of portfolio development for the artist.",
+        "This work is a small one-page web application with page routing and transition animation. The customer defined the concept of the project. Based on the wishes of the customer, I projecting the design of the site. Next, I created it and wrote the frontend to the project logic on Vue.js. The site is in test mode."
+      ],
       "link": ["https://morecodemore.github.io/bikees/"],
       "linkHeading": ["Project website: "]
     },
@@ -53,10 +80,16 @@
       "url": "med_studio",
       "tags": ["Projecting"],
       "image": {
-        "thumb": ["static/img/works/prev/med.png", "static/img/works/big/sto.png"]
+        "thumb": [
+          "static/img/works/prev/med.png",
+          "static/img/works/big/sto.png"
+        ]
       },
       "title": "med.studio - medical online education",
-      "description": ["Designing prototypes for the service of medical online education - med.studio.", "med.studio is the site of the company that organizes large online and offline events. Objective: to develop a resource structure for posting conference materials, scheduling upcoming events and conducting webinars. I worked on the first iteration of the service. The project site is in test mode."],
+      "description": [
+        "Designing prototypes for the service of medical online education - med.studio.",
+        "med.studio is the site of the company that organizes large online and offline events. Objective: to develop a resource structure for posting conference materials, scheduling upcoming events and conducting webinars. I worked on the first iteration of the service."
+      ],
       "link": ["https://med.studio/"],
       "linkHeading": ["Project website: "]
     },
@@ -65,10 +98,16 @@
       "url": "openmedcom",
       "tags": ["Projecting"],
       "image": {
-        "thumb": ["static/img/works/prev/landing.png", "static/img/works/big/catalog.png"]
+        "thumb": [
+          "static/img/works/prev/landing.png",
+          "static/img/works/big/catalog.png"
+        ]
       },
       "title": "Jewelery catalog without worries",
-      "description": ["Designing prototypes for a jewelery catalog template.", "The project has a goal - to help jewelers in demonstrating their work to clients. I composed the essential and functional maps of the project, as well as prototypes of 2 versions of the catalog: a portfolio of works and a version with a store for bulk buyers."],
+      "description": [
+        "Designing prototypes for a jewelery catalog template.",
+        "The project has a goal - to help jewelers in demonstrating their work to clients. I composed the essential and functional maps of the project, as well as prototypes of 2 versions of the catalog: a portfolio of works and a version with a store for bulk buyers."
+      ],
       "link": ["https://demo.mycatalog.pro/user/sign-in/login?demo=1"],
       "linkHeading": ["Project website: "]
     },
@@ -77,12 +116,39 @@
       "url": "openmedcom",
       "tags": ["Projecting", "Design"],
       "image": {
-        "thumb": ["static/img/works/prev/openmedcom_promo.png", "static/img/works/big/openmedcom.png"]
+        "thumb": [
+          "static/img/works/prev/openmedcom_promo.png",
+          "static/img/works/big/openmedcom.png"
+        ]
       },
       "title": "New Year's promotional page for the service openmedcom.ru",
-      "description": ["Designing prototypes and the template of the promotional page.", "As a gift from the developer's studio, we prepared a summary of the results for 2017 for the client. On the basis of statistical data, I marked up an interactive map by region, indicating the number of users in each of them. Further, proceeding from the existing design, I assembled a design page layout. The client was pleasantly surprised."],
-      "link": ["https://openmedcom.ru/pages/promo", "https://codepen.io/ulyanov2022/pen/eybKxL"],
+      "description": [
+        "Designing prototypes and the template of the promotional page.",
+        "As a gift from the developer's studio, we prepared a summary of the results for 2017 for the client. On the basis of statistical data, I marked up an interactive map by region, indicating the number of users in each of them. Further, proceeding from the existing design, I assembled a design page layout. The client was pleasantly surprised."
+      ],
+      "link": [
+        "https://openmedcom.ru/pages/promo",
+        "https://codepen.io/ulyanov2022/pen/eybKxL"
+      ],
       "linkHeading": ["Making page: ", "Interactive map: "]
+    },
+    {
+      "id": 8,
+      "url": "shuvalovo",
+      "tags": ["Projecting", "Page making", "Frontend", "Backend"],
+      "image": {
+        "thumb": [
+          "static/img/works/prev/shuvalovo.png",
+          "static/img/works/big/shuvalovo.jpg"
+        ]
+      },
+      "title": "Site of JSC «Shuvalovo»",
+      "description": [
+        "Development of a turnkey company website.",
+        "The task was to revise the concept of the structure of the information, data storage and site administration. I designed the architecture, organized the backend logic for data management, and also made an adaptive layout and wrote the frontend logic of the site."
+      ],
+      "link": ["https://shuvalovo.tw1.ru"],
+      "linkHeading": ["Project site: "]
     }
   ]
 }
