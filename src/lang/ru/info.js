@@ -8,5 +8,6 @@ export default {
   projecting:'Проектирование',
   design:'Дизайн',
   page_making:'Верстка',
-  frontend:'Фронтенд'
+  frontend:'Фронтенд',
+  backend:'Бекенд'
 }
