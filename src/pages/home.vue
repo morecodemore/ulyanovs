@@ -6,7 +6,7 @@
     </section>
     <section class="about-me">
       <div class="me-foto">
-        <img src="static/img/me.jpg" alt="Ulyanov's BOSS">
+        <img src="static/img/me.jpg" alt="Ulyanov Maxim">
       </div>
       <div class="text-wrapper">
         <h3 class="about-me-heading" v-lang.home.aboutMeHeading></h3>
@@ -469,7 +469,8 @@ export default {
 .title-block {
   margin-top: 180px;
   margin-bottom: 180px;
-  padding-left: 100px;
+  //padding-left: 100px;
+  align-items: center;
   @extend %grid;
 }
 
